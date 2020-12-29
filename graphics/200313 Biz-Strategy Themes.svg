@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 1052.3622 744.09448"
+   id="svg10655"
+   version="1.1"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   sodipodi:docname="200313 Biz-Strategy Themes.svg"
+   inkscape:export-filename="/Users/nhamlett/Documents/GitHub/UncertaintResearch/Biz-StratTopicAnalysis/graphics/200313 Biz-Strategy Themes.svg.png"
+   inkscape:export-xdpi="179.93462"
+   inkscape:export-ydpi="179.93462">
+  <defs
+     id="defs10657">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4979"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4976"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.4) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4973"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker11459"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path11461"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4970"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11503">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#003459;stroke-width:0.74174553;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.74174552, 0.74174552;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect11505"
+         width="689.25433"
+         height="200.17361"
+         x="181.76949"
+         y="-8.9112444" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11507">
+      <rect
+         y="203.2126"
+         x="181.21237"
+         height="1164.6023"
+         width="688.71881"
+         id="rect11509"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#003459;stroke-width:0.74174553;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.74174552, 0.74174552;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11517">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#003459;stroke-width:0.97058767;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.9705877, 0.9705877;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect11519"
+         width="749.39246"
+         height="581.32861"
+         x="160.56172"
+         y="227.79407" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11521">
+      <rect
+         y="804.96643"
+         x="151.48488"
+         height="562.36218"
+         width="749.39246"
+         id="rect11523"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#003459;stroke-width:0.97058767;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.9705877, 0.9705877;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.71046266"
+     inkscape:cx="573.24499"
+     inkscape:cy="287.05424"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1416"
+     inkscape:window-height="780"
+     inkscape:window-x="1944"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     showguides="false"
+     inkscape:document-rotation="0" />
+  <metadata
+     id="metadata10660">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.26772)">
+    <g
+       id="g12171"
+       transform="matrix(1.031898,0,0,1,-26.486017,0)">
+      <rect
+         y="321.23563"
+         x="46.471836"
+         height="115"
+         width="1000"
+         id="rect12161"
+         style="opacity:1;fill:#d7d2cb;fill-opacity:0.392157;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         style="opacity:1;fill:#839fbc;fill-opacity:0.392157;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect12163"
+         width="1000"
+         height="115"
+         x="46.471836"
+         y="436.23563" />
+      <rect
+         y="551.2356"
+         x="46.471836"
+         height="115"
+         width="1000"
+         id="rect12165"
+         style="opacity:1;fill:#d7d2cb;fill-opacity:0.392157;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         style="opacity:1;fill:#839fbc;fill-opacity:0.392157;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect12167"
+         width="1000"
+         height="115"
+         x="46.471836"
+         y="666.2356" />
+      <rect
+         y="781.2356"
+         x="46.471836"
+         height="115"
+         width="1000"
+         id="rect12169"
+         style="opacity:1;fill:#d7d2cb;fill-opacity:0.392157;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot11566"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:0.01%;font-family:Nunito;-inkscape-font-specification:'Nunito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(-6.5190587,282.7741)"><flowRegion
+         id="flowRegion11568"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:Nunito;-inkscape-font-specification:'Nunito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           id="rect11570"
+           width="181.39009"
+           height="124.42458"
+           x="35.978195"
+           y="51.514229"
+           style="-inkscape-font-specification:'Nunito, Normal';font-family:Nunito;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:22.49999988px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;" /></flowRegion><flowPara
+         id="flowPara11572"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Operations Research and Management Science</flowPara></flowRoot>
+    <flowRoot
+       transform="translate(-6.2190587,386.74045)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:0.01%;font-family:Nunito;-inkscape-font-specification:'Nunito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot11574"
+       xml:space="preserve"><flowRegion
+         id="flowRegion11576"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:Nunito;-inkscape-font-specification:'Nunito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           y="51.514229"
+           x="35.978195"
+           height="124.42458"
+           width="181.39009"
+           id="rect11578"
+           style="-inkscape-font-specification:'Nunito, Normal';font-family:Nunito;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:22.49999988px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="flowPara11580">Competitive Advantage</flowPara></flowRoot>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot11582"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:0.01%;font-family:Nunito;-inkscape-font-specification:'Nunito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(-7.3790587,505.15397)"><flowRegion
+         id="flowRegion11584"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:Nunito;-inkscape-font-specification:'Nunito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           id="rect11586"
+           width="181.39009"
+           height="124.42458"
+           x="35.978195"
+           y="51.514229"
+           style="-inkscape-font-specification:'Nunito, Normal';font-family:Nunito;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:22.49999988px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;" /></flowRegion><flowPara
+         id="flowPara11588"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Disruptive Innovation</flowPara></flowRoot>
+    <flowRoot
+       transform="translate(-6.8590587,624.7639)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:0.01%;font-family:Nunito;-inkscape-font-specification:'Nunito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot11590"
+       xml:space="preserve"><flowRegion
+         id="flowRegion11592"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:Nunito;-inkscape-font-specification:'Nunito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           y="51.514229"
+           x="35.978195"
+           height="124.42458"
+           width="181.39009"
+           id="rect11594"
+           style="-inkscape-font-specification:'Nunito, Normal';font-family:Nunito;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:22.49999988px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="flowPara11596">Dynamic Capabilities</flowPara></flowRoot>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot11598"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:0.01%;font-family:Nunito;-inkscape-font-specification:'Nunito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(-6.2190587,742.99515)"><flowRegion
+         id="flowRegion11600"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:Nunito;-inkscape-font-specification:'Nunito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           id="rect11602"
+           width="194.8474"
+           height="123.07886"
+           x="35.978195"
+           y="51.514229"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:Nunito;-inkscape-font-specification:'Nunito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" /></flowRegion><flowPara
+         id="flowPara11604"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Information as  Differentiating Asset</flowPara></flowRoot>
+    <flowRoot
+       transform="translate(-253.23288,371.51223)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot4305"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4307"><rect
+           style="text-align:start;text-anchor:start"
+           y="-71.76899"
+           x="283.52701"
+           height="85.34742"
+           width="332.71027"
+           id="rect4309" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:22.5px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito Semi-Bold';text-align:start;text-anchor:start"
+         id="flowPara4311">Theme</flowPara></flowRoot>
+    <rect
+       style="opacity:1;fill:#2767ff;fill-opacity:0.33024693;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect12182"
+       width="187.76974"
+       height="636.43103"
+       x="863.44342"
+       y="258.52655" />
+    <rect
+       style="opacity:1;fill:#2767ff;fill-opacity:0.330247;stroke:none;stroke-width:1.08686;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.08686, 1.08686;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect12178"
+       width="478.12012"
+       height="636.43103"
+       x="185.98099"
+       y="258.52655" />
+    <rect
+       y="258.52655"
+       x="664.10114"
+       height="636.43103"
+       width="199.34227"
+       id="rect12180"
+       style="opacity:1;fill:#73cbf2;fill-opacity:0.39215686;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke-opacity:1" />
+    <flowRoot
+       transform="translate(164.49848,282.7741)"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:0.01%;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot11606"
+       xml:space="preserve"><flowRegion
+         id="flowRegion11608"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           y="51.514229"
+           x="35.978195"
+           height="118.42824"
+           width="331.29922"
+           id="rect11610"
+           style="-inkscape-font-specification:'Nunito, Light';font-family:Nunito;font-weight:300;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999989px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="flowPara11616">⧐ Operational efficiency is the key.</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="flowPara11635">⧐ Leads to narrow focus on cost, price.</flowPara></flowRoot>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot11944"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:0.01%;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(645.80842,282.7741)"><flowRegion
+         id="flowRegion11946"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           id="rect11948"
+           width="331.29922"
+           height="118.42824"
+           x="35.978195"
+           y="51.514229"
+           style="-inkscape-font-specification:'Nunito, Light';font-family:Nunito;font-weight:300;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999989px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;" /></flowRegion><flowPara
+         id="flowPara167"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">⧐ Fredrick Taylor</flowPara><flowPara
+         id="flowPara171"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">⧐ Patrick Blackett</flowPara></flowRoot>
+    <flowRoot
+       transform="translate(868.95216,282.7741)"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:0.01%;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot11994"
+       xml:space="preserve"><flowRegion
+         id="flowRegion11996"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           y="51.514229"
+           x="35.978195"
+           height="87.312241"
+           width="103.11519"
+           id="rect11998"
+           style="-inkscape-font-specification:'Nunito, Light';font-family:Nunito;font-weight:300;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999989px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle"
+         id="flowPara12002">Late 1800s </flowPara><flowPara
+         id="flowPara12214"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle">to 1980s</flowPara></flowRoot>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot11966"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:0.01%;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(645.80842,386.75846)"><flowRegion
+         id="flowRegion11968"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           id="rect11970"
+           width="331.29922"
+           height="118.42824"
+           x="35.978195"
+           y="51.514229"
+           style="-inkscape-font-specification:'Nunito, Light';font-family:Nunito;font-weight:300;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999989px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;" /></flowRegion><flowPara
+         id="flowPara11972"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">⧐ Michael Porter</flowPara></flowRoot>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot11637"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:0.01%;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(164.49848,386.75846)"><flowRegion
+         id="flowRegion11639"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           id="rect11641"
+           width="398.75836"
+           height="119.92735"
+           x="35.978195"
+           y="51.514229"
+           style="-inkscape-font-specification:'Nunito, Light';font-family:Nunito;font-weight:300;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999989px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;" /></flowRegion><flowPara
+         id="flowPara11645"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">⧐ Factors other than price can provide</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="flowPara11653">     bases for differentiation.</flowPara><flowPara
+         id="flowPara11649"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">⧐ Emphasizes industry structure, resources, </flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="flowPara11711">     positioning.</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="flowPara11657">⧐ Explains industries in &quot;steady state&quot;.</flowPara></flowRoot>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot12006"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:0.01%;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(868.11273,386.81096)"><flowRegion
+         id="flowRegion12008"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           id="rect12010"
+           width="106.57252"
+           height="114.97091"
+           x="35.978195"
+           y="51.514229"
+           style="-inkscape-font-specification:'Nunito, Light';font-family:Nunito;font-weight:300;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999989px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;" /></flowRegion><flowPara
+         id="flowPara12012"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle">1980s to </flowPara><flowPara
+         id="flowPara12212"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle">early 2000s</flowPara></flowRoot>
+    <flowRoot
+       transform="translate(164.49848,505.33198)"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:0.01%;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot11659"
+       xml:space="preserve"><flowRegion
+         id="flowRegion11661"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           y="51.514229"
+           x="35.978195"
+           height="125.44466"
+           width="491.89941"
+           id="rect11663"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="flowPara11675">⧐ Recognizes that industry structures can be fragile.</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="flowPara11677">⧐ Describes specific mode in which low-cost firms</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="flowPara11679">     &quot;eat&quot; incumbents  markets from the bottom.</flowPara><flowPara
+         id="flowPara11671"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">⧐ Originator complained that the term</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="flowPara11681">     &quot;disruption&quot; is overused, misused.</flowPara></flowRoot>
+    <flowRoot
+       transform="translate(645.80842,504.9422)"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:0.01%;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot11954"
+       xml:space="preserve"><flowRegion
+         id="flowRegion11956"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           y="51.514229"
+           x="35.978195"
+           height="118.42824"
+           width="331.29922"
+           id="rect11958"
+           style="-inkscape-font-specification:'Nunito, Light';font-family:Nunito;font-weight:300;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999989px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="flowPara11962">⧐ Clayton </flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="flowPara162">    Christensen</flowPara></flowRoot>
+    <flowRoot
+       transform="translate(860.30861,504.9422)"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:0.01%;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot12014"
+       xml:space="preserve"><flowRegion
+         id="flowRegion12016"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           y="51.514229"
+           x="35.978195"
+           height="114.97091"
+           width="120.40185"
+           id="rect12018"
+           style="-inkscape-font-specification:'Nunito, Light';font-family:Nunito;font-weight:300;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999989px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle"
+         id="flowPara12020">Late 1990s </flowPara><flowPara
+         id="flowPara12210"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle">to present</flowPara></flowRoot>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot11695"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:0.01%;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(164.49848,624.94191)"><flowRegion
+         id="flowRegion11697"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           id="rect11699"
+           width="455.53802"
+           height="157.84979"
+           x="35.978195"
+           y="51.514229"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" /></flowRegion><flowPara
+         id="flowPara11709"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">⧐ Adaptability, resilience, agility are keys in </flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="flowPara11743">    industries subject to periodic change.</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="flowPara11745">⧐ Describes three key classes of capabilities:</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="flowPara11747">    Sensing, siezing, managing competitive</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="flowPara11749">    landscape.</flowPara></flowRoot>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot11974"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:0.01%;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(645.80842,624.97691)"><flowRegion
+         id="flowRegion11976"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           id="rect11978"
+           width="331.29922"
+           height="118.42824"
+           x="35.978195"
+           y="51.514229"
+           style="-inkscape-font-specification:'Nunito, Light';font-family:Nunito;font-weight:300;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999989px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;" /></flowRegion><flowPara
+         id="flowPara11980"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">⧐ David Teece</flowPara></flowRoot>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot12022"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:0.01%;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(854.2588,625.02941)"><flowRegion
+         id="flowRegion12024"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           id="rect12026"
+           width="132.50252"
+           height="113.24225"
+           x="35.978195"
+           y="51.514229"
+           style="-inkscape-font-specification:'Nunito, Light';font-family:Nunito;font-weight:300;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999989px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;" /></flowRegion><flowPara
+         id="flowPara12028"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle">Early 2000s </flowPara><flowPara
+         id="flowPara12208"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle">to present</flowPara></flowRoot>
+    <flowRoot
+       transform="translate(164.49848,743.07317)"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:0.01%;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot11713"
+       xml:space="preserve"><flowRegion
+         id="flowRegion11715"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           y="51.514229"
+           x="35.978195"
+           height="167.41919"
+           width="430.01959"
+           id="rect11717"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="flowPara11727">⧐ Information, Knowledge began to provide</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="flowPara11765">    greater return than traditional asset classes</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="flowPara11767">    as early as 1960s.</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="flowPara11769">⧐ Explains power of platform operating models.</flowPara></flowRoot>
+    <flowRoot
+       transform="translate(645.80842,743.07317)"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:0.01%;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot11982"
+       xml:space="preserve"><flowRegion
+         id="flowRegion11984"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           style="stroke-width:1px;-inkscape-font-specification:'Nunito, Light';font-family:Nunito;font-weight:300;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999989px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
+           y="51.514229"
+           x="35.978195"
+           height="118.42823"
+           width="331.29922"
+           id="rect11986" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="flowPara11988">⧐ Michael Porter</flowPara><flowPara
+         id="flowPara163"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">⧐ Peter Drucker</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="flowPara11990">⧐ Martin Reeve</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="flowPara11992">⧐ N. Hamlett</flowPara></flowRoot>
+    <flowRoot
+       transform="translate(884.84655,743.12567)"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:0.01%;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot12030"
+       xml:space="preserve"><flowRegion
+         id="flowRegion12032"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           y="51.514229"
+           x="35.978195"
+           height="118.42824"
+           width="331.29922"
+           id="rect12034"
+           style="-inkscape-font-specification:'Nunito, Light';font-family:Nunito;font-weight:300;font-style:normal;font-stretch:normal;font-variant:normal;font-size:19.99999989px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="flowPara12036">Emerging</flowPara></flowRoot>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot12184"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(-25.286044,367.45098)"><flowRegion
+         id="flowRegion12186"><rect
+           id="rect12188"
+           width="332.71027"
+           height="85.34742"
+           x="283.52701"
+           y="-71.76899"
+           style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara12190"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:22.5px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito Semi-Bold'">Key Ideas</flowPara></flowRoot>
+    <flowRoot
+       transform="translate(387.43118,367.46223)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot12192"
+       xml:space="preserve"><flowRegion
+         id="flowRegion12194"><rect
+           style="text-align:center;text-anchor:middle"
+           y="-71.76899"
+           x="283.52701"
+           height="92.580254"
+           width="185.16052"
+           id="rect12196" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:22.5px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito Semi-Bold'"
+         id="flowPara12198">Early Originators</flowPara></flowRoot>
+    <flowRoot
+       transform="translate(602.4612,349.01223)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot12200"
+       xml:space="preserve"><flowRegion
+         id="flowRegion12202"><rect
+           style="text-align:center;text-anchor:middle"
+           y="-71.76899"
+           x="283.52701"
+           height="104.15279"
+           width="141.76353"
+           id="rect12204" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:22.5px;line-height:1;font-family:Nunito;-inkscape-font-specification:'Nunito Semi-Bold'"
+         id="flowPara12206">Period of Prevalance</flowPara></flowRoot>
+  </g>
+</svg>

@@ -1,0 +1,3150 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\usepackage{babel}
+
+\usepackage{hyperref}
+\usepackage{lipsum}
+\usepackage{xcolor}
+\usepackage{sectsty}
+%\usepackage{graphics}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{url}
+
+
+
+
+
+
+\definecolor{JBlue}{HTML}{0051BA}
+\definecolor{Night}{HTML}{003459}
+\definecolor{Brick}{HTML}{971b2f}
+\definecolor{Lake}{HTML}{2767ff}
+\definecolor{TCotta}{HTML}{c66e43}
+
+\sectionfont{\color{JBlue}}
+\subsectionfont{\color{Night}}
+\subsubsectionfont{\color{Brick}}
+
+\setlength\columnsep{18pt}
+
+\fancypagestyle{mypagestyle}{%
+  	\fancyhf{}% Clear header/footer
+	\fancyhead[RE, LO]{ \href{https://t.ly/qO7i}{A thematic study of business-strategy literature}\\
+						\textnormal{\href{https://www.linkedin.com/in/neil-hamlett-strategic-quant/}{N. A. Hamlett, D.Sc., MBA}}}
+	\fancyhead[LE, RO]{INFORMS Annual Meeting (20-CP-AM-10343-INFORMS)\\
+				   		National Harbor, MD, Nov 18-21, 2020}
+	\fancyfoot[C]{\thepage  \\
+               	 \textcolor{JBlue}{\tiny	©2020 Uncertainty Research, LLC — All Rights Reserved}}
+	  \renewcommand{\headrulewidth}{.4pt}% Header rule of .4pt
+}
+
+
+\fancypagestyle{specialfooter}{%
+  \fancyhf{}
+  \renewcommand\headrulewidth{0pt}
+	\fancyfoot[C]{\thepage \\
+                  \textcolor{JBlue}{\tiny ©2020 Uncertainty Research, LLC — All Rights Reserved} }
+}
+\pagestyle{mypagestyle}
+
+
+%\usepackage{blindtext}
+%\pagestyle{fancy}
+
+
+
+\title{\bfseries{\textcolor{JBlue}{A thematic study of the\\business-strategy literature, 1980 - 2020}} \\
+		\textnormal{\normalsize INFORMS Annual Meeting (20-CP-AM-10343-INFORMS)\\National Harbor, MD, November 18-21, 2020}}
+\author{\textcolor{JBlue}{Neil A. Hamlett, D.Sc., MBA} \\
+		\small \includegraphics[height=0.9\baselineskip]{./graphics/manualEmailIcon.svg.png}\textnormal{ neil.hamlett@uncertainty-research.science} \qquad
+		\small \includegraphics[height=1.06125\baselineskip]{./graphics/LinkedInLogo.png}\textnormal{  \href{https://www.linkedin.com/in/neil-hamlett-strategic-quant/}{https://www.linkedin.com/in/neil-hamlett-strategic-quant/}} \\
+		\small \includegraphics[height=1.375\baselineskip]{./graphics/git-github-hub-icon-25.png}\textnormal{  \href{https://hamlett-neil-ur.github.io/}{https://hamlett-neil-ur.github.io/}} \qquad
+		\small \includegraphics[height=1.375\baselineskip]{./graphics/ORCID-ID-icon-1.png}\textnormal{  \href{https://orcid.org/0000-0001-8278-0087}{https://orcid.org/0000-0001-8278-0087}}  }
+\date{}
+\end_preamble
+\options twoside
+\use_default_options true
+\begin_modules
+customHeadersFooters
+multicol
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "Avenir"
+\font_sans "default" "Avenir"
+\font_typewriter "default" "Avenir"
+\font_math "auto" "default"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 4cm
+\rightmargin 2cm
+\bottommargin 2.5cm
+\headheight 4.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+sloppy
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+twocolumn
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+maketitle
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{specialfooter}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+topfraction}{.8}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+A 
+\emph on
+big-data
+\emph default
+ text-mining analysis detects prominent themes in the business-strategy
+ literature.
+ A 
+\emph on
+Latent Dirichlet Allocation
+\emph default
+ (LDA) model is applied to a corpus comprised of journal-article titles
+ and abstracts from eight journals spanning the period 1980 – 2020.
+ This corpus consists of around 5,500 documents containing an aggregate
+ of 1.25 million words.
+ Five prominent business-strategy themes are identified 
+\emph on
+a priori
+\emph default
+.
+ The LDA model based on the aforementioned corpus is applied to eight articles
+ known to coincide with the dominant themes.
+ These known-theme documents are found to correspond to distinct topics
+ inferred by the model.
+ Substantial overlap exists, making thematic discrimination challenging.
+\end_layout
+
+\begin_layout Abstract
+Subsequent work for the INFORMS Annual Meeting will seek to improve the
+ thematic-discriminant power of the approach.
+ This includes expanding the corpus size to include full-text articles.
+ More-sophisticated modeling will attempt to pull in additional grammatical
+ information.
+ Also, the LDA approach will extended in order to expressly bridge between
+ LDA-inferred topics and 
+\emph on
+a-priori-specified
+\emph default
+ themes.
+ The intended result seeks to demonstrate a concept of operations for literature
+ research potentially useful for academic researchers and business consultants.
+\end_layout
+
+\begin_layout Section*
+Introduction.
+\end_layout
+
+\begin_layout Standard
+Advances in statistical methods for text-mining — variously referred to
+ as 
+\begin_inset Quotes eld
+\end_inset
+
+big
+\begin_inset Quotes erd
+\end_inset
+
+ data, text analytics, natural-language processing, 
+\emph on
+etc
+\emph default
+ — offer new ways to perform literature search.
+ Statistical algorithms sift through expansive collections of text in document
+ or message format.
+ The applications include topic detection, document classification, and
+ trending 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Srivastava2009"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Such methods have in recent years assumed an increasingly prominent role
+ in academic research.
+ Blei and Lafferty provided an early demonstration of their potential to
+ group scientific texts by topic 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Blei2009"
+literal "false"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Antons2019"
+literal "false"
+
+\end_inset
+
+ extended this work, attempting to infer scientific impact.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Schmiedel2019"
+literal "false"
+
+\end_inset
+
+ performed a methodological demonstration of big-data tools for research
+ in organizational culture.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Tay2018"
+literal "false"
+
+\end_inset
+
+ studied visualization approaches to interpreting topic-analysis results.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Liu2019"
+literal "false"
+
+\end_inset
+
+ conducted a thematic survey of the business-ethics literature.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Torabi2019"
+literal "false"
+
+\end_inset
+
+ tried to discriminate between 
+\begin_inset Quotes eld
+\end_inset
+
+fake
+\begin_inset Quotes erd
+\end_inset
+
+ news and factual reporting.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Brooks2018"
+literal "false"
+
+\end_inset
+
+ performed a critical comparison of topic analysis with more-conventional
+ methods for discourse studies using UK National Health System content.
+\end_layout
+
+\begin_layout Standard
+We describe here a 
+\emph on
+topic-analysis
+\emph default
+ study of the business-strategy literature.
+ Detecting specific major themes in the literature is our goal.
+ This intent coincides closely with that of 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Blei2009"
+literal "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Liu2019"
+literal "false"
+
+\end_inset
+
+.
+ We look for five distinct themes that appear prominently in business-strategy
+ research during the last half-century.
+ 
+\end_layout
+
+\begin_layout Standard
+We employ a method called 
+\emph on
+Latent Dirichlet Allocation
+\emph default
+ (LDA), commonly used for topic analysis.
+ LDA attempts to group documents by 
+\emph on
+topic
+\emph default
+.
+ It is an 
+\emph on
+unsupervised-learning
+\emph default
+ method in that it does not depend on exogenous, 
+\emph on
+a-priori
+\emph default
+ assignment of documents to topic classes.
+ Such algorithms probabilistically estimates the strength of association
+ between each document and each topic based on statistical similarities
+ in their texts.
+ LDA was first described by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Blei2003"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+After training our LDA model, we examine its handling of documents known
+ to preponderantly address our 
+\emph on
+a-priori
+\emph default
+-identified themes.
+ Subsequent work extends the approach in an attempt to produce a more-robust
+ thematic classifier.
+ These extensions are inspired by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Xie2013"
+literal "false"
+
+\end_inset
+
+, but do not explicitly reproduce its approach.
+\end_layout
+
+\begin_layout Section*
+Target audience.
+\end_layout
+
+\begin_layout Standard
+At least three constituencies may find this work particularly interesting.
+ Academic researchers represent the first.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Schmiedel2019"
+literal "false"
+
+\end_inset
+
+ explicitly seeks to demonstrate the utility of topic analysis as a 
+\emph on
+strategy for inquiry
+\emph default
+.
+ Topic analysis bins documents from a corpus into topically coherent latent
+ topic groups.
+ This aides in the localization of research content associated with a theme
+ of interest.
+\end_layout
+
+\begin_layout Standard
+Business consultants are the second potential beneficiaries of topic analysis.
+ Automation of text classification can reduce their barrier to accessing
+ the breadth and depth of academic research related to their practice.
+ Innovative ideas with potential to advance consulting practices become
+ more-easily discoverable.
+\end_layout
+
+\begin_layout Standard
+Thirdly, text-mining practitioners may take note of an apparently-novel
+ approach to processing.
+ Inspired by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Xie2013"
+literal "false"
+
+\end_inset
+
+, this work extends the original method of 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Blei2003"
+literal "false"
+
+\end_inset
+
+.
+ We focus here on the distinction between 
+\emph on
+Latent Topics
+\emph default
+ inferred by LDA modeling and 
+\emph on
+Themes
+\emph default
+, in which researchers and consultants actually take interest.
+ This work moves towards an 
+\emph on
+adaptive
+\emph default
+, Bayesian-Learning approach 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Jihan2018"
+literal "false"
+
+\end_inset
+
+ to document classification according to research themes.
+ This might support a use case for interactive literature search, in which
+ a model 
+\begin_inset Quotes eld
+\end_inset
+
+learns
+\begin_inset Quotes erd
+\end_inset
+
+ thematic associations based on LDA topic allocations and other machine-learning
+ outputs.
+\end_layout
+
+\begin_layout Standard
+At its present state of maturity, topic analysis by no means obviates the
+ need for traditional research.
+ It could be used to compile a preliminary bibliography for a research project.
+ Human 
+\begin_inset Quotes eld
+\end_inset
+
+touch labor
+\begin_inset Quotes erd
+\end_inset
+
+ remains to ascertain which documents in a topical class are useful and
+ which are not.
+ Identification of potentially-related work that might not have otherwise
+ occurred to a researcher is the primary benefit.
+\end_layout
+
+\begin_layout Standard
+Branded as 
+\emph on
+artificial intelligence
+\emph default
+, the abilities text-mining methods such as topic analysis are sometimes
+ overestimated.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Vladawsky-Berger2020"
+literal "false"
+
+\end_inset
+
+ emphasizes that these methods fundamentally are specialized applications
+ of statistics.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Waters2016"
+literal "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Davenport2018"
+literal "false"
+
+\end_inset
+
+ contain cautionary tales about overestimating their capabilities.
+\end_layout
+
+\begin_layout Section*
+Summary of thematic study.
+\end_layout
+
+\begin_layout Subsection*
+Business-strategy corpus.
+\end_layout
+
+\begin_layout Standard
+We assemble a textual 
+\emph on
+corpus
+\emph default
+ of business-strategy articles published in the period 1980 – 2020.
+ Preliminary results illustrated here are based on titles and abstracts.
+ The corpus for the annual-meeting presentation will be based on full-text
+ articles.
+ 
+\end_layout
+
+\begin_layout Standard
+Fourteen academic journals, most of which are focused primarily on business
+ strategy, were considered.
+ Details are listed in 
+\begin_inset CommandInset href
+LatexCommand href
+name "[Hamlett2020]"
+target "https://github.com/hamlett-neil-ur/BizStratTopicAnalysis"
+literal "false"
+
+\end_inset
+
+.
+ Of these, eight were determined to be useful and practical.
+ The summary table in 
+\begin_inset CommandInset href
+LatexCommand href
+name "[Hamlett2020]"
+target "https://github.com/hamlett-neil-ur/BizStratTopicAnalysis"
+literal "false"
+
+\end_inset
+
+ provides the rationale for and document count for each.
+\end_layout
+
+\begin_layout Standard
+The resulting corpus contains approximately 5,500 documents — article titles
+ and abstracts — in all.
+ Each document is processed through a text-manipulation process called 
+\emph on
+annotation
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+after "Chapter 2"
+key "Weiss2010"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "JSLabs"
+literal "false"
+
+\end_inset
+
+.
+ This involves cleaning up the text and discarding non-information-bearing
+ words like prepositions, conjunctions, and articles.
+ Consecutive words are also combined so that key phrases remain intact.
+ When all of this is done, this corpus contains more than 1.275 million distinct
+ terms, or 
+\emph on
+tokens
+\emph default
+.
+\end_layout
+
+\begin_layout Subsection*
+Dominant themes in business strategy.
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:DominantThemes"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We seek to detect five dominant themes in our corpus.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "DominantThemes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ summarizes these themes.
+ Four of these themes have occupied central positions in the business-strategy
+ conversation during the last 50 years.
+ The fifth theme — information as a differentiating asset — is still emerging.
+ 
+\end_layout
+
+\begin_layout Standard
+Business strategy focused on operational efficiency beginning in the late-ninete
+enth century.
+ Frederick Winslow Taylor pioneered the field of 
+\emph on
+Scientific Management
+\emph default
+.
+ Relentless pursuit of industrial efficiency was his focus.
+ Although much of Taylor's actual work fell into disrepute, its underlying
+ hypothesis retained credibility.
+ A 
+\emph on
+Management-Science
+\emph default
+ discipline focused on industrial efficiency became the staple of graduate
+ schools of business throughout the academy 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Stewart2009"
+literal "false"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kiechel2012"
+literal "false"
+
+\end_inset
+
+ describes a 
+\emph on
+Management Century
+\emph default
+, during which these ideas dominated.
+ 
+\end_layout
+
+\begin_layout Standard
+In the late 1970s, Harvard Business-School professor Michael Porter observed
+ that price alone does not unequivocally explain marketplace success 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Porter1979,Porter1990,Porter1996"
+literal "false"
+
+\end_inset
+
+.
+ He asserted to the effect that 
+\begin_inset Quotes eld
+\end_inset
+
+The race is not to the swift, nor the battle to the strong
+\begin_inset Quotes erd
+\end_inset
+
+, necessarily.
+ Were price the dominant determinant, the 
+\emph on
+Bertrand Model
+\emph default
+ of competition would prevail, and many markets would tend to states of
+ unprofitability 
+\begin_inset CommandInset citation
+LatexCommand cite
+after "Chap 12"
+key "Pindyck2017"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Porter's 
+\emph on
+Competitive-Advantage
+\emph default
+ framework
+\emph on
+ 
+\emph default
+recognized that firms can differentiate on factors other than price.
+ His framework also explains industry structure and balances of power between
+ buyers and sellers.
+ It views combinations of positioning and resources as the key 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Martin2015"
+literal "false"
+
+\end_inset
+
+.
+ Porter's framework is fundamentally grounded in bedrock concepts from microecon
+omics.
+\end_layout
+
+\begin_layout Standard
+Clayton Christensen, one of Porter's students, noticed in the 1990s that
+ industry structures can shift surprisingly and quickly.
+ Dominant firms' positions based on product distinction can suddenly be
+ upended by lower-price substitutes.
+ This phenomenon is referred to as 
+\emph on
+Disruptive Innovation
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Christensen2015"
+literal "false"
+
+\end_inset
+
+.
+ Christensen's framework shares with Porter's an emphasis on positioning
+ and resources.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+We seek to detect five dominant themes in the our document corpus.
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "DominantThemes"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/nhamlett/Documents/GitHub/UncertaintResearch/Biz-StratTopicAnalysis/graphics/200313 Biz-Strategy Themes.svg.png
+	lyxscale 25
+	width 8.5cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Beginning in the late 1990s, Professor David Teece of the University of
+ California at Berkeley studied competitive differentiation from an organization
+al-behavior perspective.
+ He established that organizational competencies can trump resource- and
+ positioning-based advantages emphasized by Porter and Christensen.
+ Teece called his framework 
+\emph on
+Dynamic Capabilities
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Teece1998,Teece2009"
+literal "false"
+
+\end_inset
+
+.
+ Organizations possessing this characteristic adaptively reconfigure themselves
+ in response to emergent opportunities or threats.
+ 
+\end_layout
+
+\begin_layout Standard
+Martin Reeves, leader of Boston Consulting Group's Henderson Research Institute,
+ formulated a similar 
+\emph on
+Adaptivity-Advantage
+\emph default
+ concept into a consulting framework 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Reeves2012"
+literal "false"
+
+\end_inset
+
+.
+ Adaptivity Advantage appears influenced by technology-based concepts such
+ as 
+\emph on
+Enterprise Architecture
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ross2006"
+literal "false"
+
+\end_inset
+
+.
+ Reeves apparently views technology as an essential enabler for organizational-b
+ehavior-based dynamic capabilities Teece describes 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bessen2018"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Finally, Porter first noticed 
+\begin_inset Quotes eld
+\end_inset
+
+the information revolution sweeping through our economy
+\begin_inset Quotes erd
+\end_inset
+
+ in the mid-1980s 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Porter1985"
+literal "false"
+
+\end_inset
+
+.
+ Peter Drucker, father of modern business consulting, observed a few years
+ later that information and knowledge contribute more to corporate returns
+ than traditional real and financial assets 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Drucker1993"
+literal "false"
+
+\end_inset
+
+.
+ Reeves bridges this concept to his adaptivity-advantage framework by 
+\begin_inset Quotes eld
+\end_inset
+
+Competing on the Rate of Learning
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Reeves2018"
+literal "false"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Hamlett2019"
+literal "false"
+
+\end_inset
+
+ describes three distinct distinct modes that produce competitive differentiatio
+n based on information.
+ 
+\end_layout
+
+\begin_layout Standard
+The notion that 
+\emph on
+information is a strategic asset
+\emph default
+ remains an emerging theme in business strategy.
+ Platform operating models comprise one important manifestation of information-c
+entric business models 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Evans2016,VanAlstyne2016,Iansiti2017"
+literal "false"
+
+\end_inset
+
+.
+ An information-centric strategic framework might also blend concepts from
+ disruptive innovation and dynamic capabilities.
+\end_layout
+
+\begin_layout Subsection*
+Topic-analysis modeling approach.
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "LDA Model"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ depicts the fundamental concept underlying topic analysis using Latent
+ Dirichlet Allocation (LDA).
+ It is aptly named.
+ LDA attempts to infer membership in 
+\emph on
+Latent
+\emph default
+ topic
+\emph on
+ 
+\emph default
+classes for each document.
+ It belongs to a more-general family of methods called 
+\emph on
+Latent Variable Models
+\emph default
+ (
+\emph on
+e.g.
+\emph default
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Loehlin2003"
+literal "false"
+
+\end_inset
+
+).
+ 
+\emph on
+Dirichlet
+\emph default
+ refers to a key probability distribution on which the model is based 
+\begin_inset CommandInset citation
+LatexCommand cite
+after "chapter 10"
+key "Evans1993"
+literal "false"
+
+\end_inset
+
+.
+ 
+\emph on
+Allocation
+\emph default
+ pertains to the use of 
+\emph on
+soft
+\emph default
+ logic to associate documents with topic classes.
+ Rather than trying to definitively link a given document to a distinct
+ class, LDA estimates the probability that the document belongs to each
+ class.
+\end_layout
+
+\begin_layout Standard
+To reiterate, LDA is an 
+\emph on
+unsupervised
+\emph default
+-learning approach.
+ Its topic-to-document associations do not require a priori, exogenous assignmen
+t of documents to topics.
+ Such associations are expensive, usually manually produced by subject-matter
+ experts (SMEs) for a subset of a corpus.
+ Unsupervised-learning methods give us a path to minimize the use of expensive
+ SME labor to make topic associations.
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "LDA Model"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ represents the LDA's informational structure using a 
+\emph on
+graph
+\emph default
+.
+ Belonging to the family of 
+\emph on
+Probabilistic Graphical Models
+\emph default
+ (PGMs) (e.g., 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Koller2009"
+literal "false"
+
+\end_inset
+
+), LDA is also a 
+\emph on
+generative
+\emph default
+ model.
+ It assumes that authors intend to compose documents addressing specific
+ topics.
+ 
+\emph on
+Topics
+\emph default
+ generate 
+\emph on
+Terms
+\emph default
+, of which 
+\emph on
+Documents
+\emph default
+ are comprised.
+ Topics are latent variables, here, in that they are not explicitly observable
+ in the corpus.
+ The LDA model infers each document's association with topics.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Conceptual depiction of Latent-Dirichlet Allocation (LDA) model.
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "LDA Model"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/nhamlett/Documents/GitHub/UncertaintResearch/Biz-StratTopicAnalysis/graphics/200309 Key Analysis Associationssvg.svg.png
+	lyxscale 25
+	width 8.5cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "LDA Model"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcolor{Lake}{light-blue-colored 
+\backslash
+emph{graph edges}} 
+\end_layout
+
+\end_inset
+
+ — arrows — are labeled with the
+\emph on
+ conditional-probability estimates
+\emph default
+ produced by the LDA model.
+ Such quantities are typical of PGM approaches.
+ Specifically, 
+\begin_inset Formula $Pr\left\{ \textrm{Term}\mid\textrm{Topic}\right\} $
+\end_inset
+
+ is the probability that a given topic produces the corresponding term.
+ Also, 
+\begin_inset Formula $Pr\left\{ \textrm{Topic}\mid\textrm{Document}\right\} $
+\end_inset
+
+ is the probability that a given document is associated with a particular
+ topic.
+ We can alternatively get 
+\begin_inset Formula $Pr\left\{ \textrm{Document}\mid\textrm{Topic}\right\} $
+\end_inset
+
+ via Bayesian-inversion techniques 
+\begin_inset CommandInset citation
+LatexCommand cite
+after "§9.3.1"
+key "Koller2009"
+literal "false"
+
+\end_inset
+
+.
+ This latter probability would be of particular use for researchers.
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "LDA Model"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ also 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcolor{TCotta}{shows 
+\backslash
+emph{Themes} in a distinct color}
+\end_layout
+
+\end_inset
+
+ from topics and documents.
+ Themes are what interest us.
+ An LDA model infers topics, which may be distinct from themes.
+ The LDA literature (
+\emph on
+e.g.,
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Blei2003"
+literal "false"
+
+\end_inset
+
+) makes no mention whatsoever of themes.
+ Keeping this in mind is important when interpreting model's results.
+\end_layout
+
+\begin_layout Standard
+As with many unsupervised-learning methods, we must specify the quantity
+ of topics to which the LDA model allocates probabilities.
+ This occurs through a combination of analysts' judgment and trial and error.
+ We train a large number of LDA models with different topic counts and score
+ them statistically.
+ We pick the model with the best statistical scores.
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "LDA Extension"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ depicts the concept — not demonstrated presently — for extending our LDA
+ topic allocations to themes.
+ Candidate approaches remain under consideration.
+ Our LDA model gives us document-to-topic associations.
+ 
+\emph on
+We seek document-to-theme associations
+\emph default
+.
+ This requires a second stage of probability allocation.
+ The desired approach minimizes use of SME touch labor.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Concept for extending LDA to associate model-induced topics with researcher-iden
+tified themes.
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "LDA Extension"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/nhamlett/Documents/GitHub/UncertaintResearch/Biz-StratTopicAnalysis/graphics/200410 Topic to Theme.svg.png
+	lyxscale 25
+	width 8.5cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This second stage of allocation might be accomplished through a combination
+ of supervised- and unsupervised-learning modeling techniques.
+ A second unsupervised-learning stage — accomplished via a simpler technique
+ than LDA — might give us clusters in LDA-topic space.
+ A combination of topic-space dimensionality and non-lantent cluster analyses
+ might also inform our decision regarding the number of LDA clusters to
+ fit the model.
+\end_layout
+
+\begin_layout Standard
+Operationally, a thematic-assignment model might adaptively learn as SMEs
+ provide additional documents with known-theme assignments.
+ Following a Bayesian-inspired methodology, topic-to-theme probability allocatio
+ns are progressively updated as researchers identify new known-theme documents.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Preliminary, illustrative results.
+\end_layout
+
+\begin_layout Standard
+A small number of 
+\emph on
+known-theme
+\emph default
+ documents are used to for a preliminary illustration of LDA topic modeling.
+ These are listed in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Known-theme docs"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Samples were cursorily selected to get at least one example for each of
+ the five themes.
+ Many of these were referenced above in the 
+\emph on
+Dominant-themes
+\emph default
+ subsection.
+ 
+\end_layout
+
+\begin_layout Standard
+The LDA model was first trained using the 5,000-document, 
+\begin_inset Formula $1.25\times10^{6}$
+\end_inset
+
+-term corpus described above.
+ The known-theme documents in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Known-theme docs"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ were then applied to the trained model.
+ We focus specifically on the resulting document-to-topic probability allocation
+s.
+\end_layout
+
+\begin_layout Standard
+The demonstration using these documents preliminarily illustrates LDA functional
+ity.
+ This by no means satisfies the criteria of a formally-designed statistical
+ experiment (
+\emph on
+e.g.
+\emph default
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Lawson2015"
+literal "false"
+
+\end_inset
+
+).
+ At this instance, we simply seek to 
+\begin_inset Quotes eld
+\end_inset
+
+exercise the machinery
+\begin_inset Quotes erd
+\end_inset
+
+.
+ More-rigorous characterization awaits the sequel.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Known-theme documents used to illustrate document-to-topic association via
+ LDA modeling.
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Known-theme docs"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/nhamlett/Documents/GitHub/UncertaintResearch/Biz-StratTopicAnalysis/graphics/200408 Biz-Strategy Known Docs.svg.png
+	lyxscale 20
+	width 8.5cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Known-theme allocations"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ contains illustrative results from applying the known-theme documents from
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Known-theme docs"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ to an LDA model.
+ This model assumes 
+\begin_inset Formula $K=10$
+\end_inset
+
+ latent-topic classes and uses a dictionary size of 
+\begin_inset Formula $L=450$
+\end_inset
+
+ terms.
+ A heat-map depiction is used because LDA does not unequivocally assign
+ each document to a distinct topic.
+ For each 
+\begin_inset Formula $\textrm{Document}_{n}$
+\end_inset
+
+ it produces a set of conditional probabilities 
+\begin_inset Formula $\Bigl\{ Pr\bigl(\textrm{Topic}_{\kappa}\mid\textrm{Document}_{n}\bigr),\quad\kappa=1,\cdots,K\Bigr\}$
+\end_inset
+
+.
+ These are conditional probabilities, so as usual,
+\begin_inset Formula 
+\[
+\sum_{\kappa=1}^{K}Pr\bigl(\textrm{Topic}_{\kappa}\mid\textrm{Document}_{n}\bigr)=1\textrm{.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide true
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Illustrative topic-to-document conditional-probability allocations from
+ LDA modeling for known-theme documents from Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Known-theme docs"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Known-theme allocations"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/nhamlett/Documents/GitHub/UncertaintResearch/Biz-StratTopicAnalysis/graphics/known_docuement_topics.png
+	lyxscale 25
+	width 18.5cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+One might naïvely consider assigning a 
+\begin_inset Formula $\textrm{Document}_{n}$
+\end_inset
+
+ to the category 
+\begin_inset Formula 
+\[
+\hat{\kappa}_{n}=\arg\max_{\kappa}Pr\bigl(\textrm{Topic}_{\kappa}\mid\textrm{Document}_{n}\bigr)\textrm{.}
+\]
+
+\end_inset
+
+But, this would not produce high-confidence assignments.
+ The highest conditional probability in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Known-theme allocations"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is 
+\begin_inset Formula 
+\[
+\max_{\kappa,n}Pr\bigl(\textrm{Topic}_{\kappa}\mid\textrm{Document}_{n}\bigr)\approx0.17\textrm{.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To summarize Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Known-theme allocations"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, LDA-inferred topics by themselves do not appear to sharply discriminate
+ between themes attributed to the known-theme documents.
+ We see considerable overlap, for example, between 
+\emph on
+Dynamic Capabilities
+\emph default
+ and 
+\emph on
+Information as an Asset
+\emph default
+ themes.
+ Similarly, the 
+\begin_inset Formula $Pr\bigl(\textrm{Topic}_{\kappa}\mid\textrm{Document}_{n}\bigr)$
+\end_inset
+
+s for the 
+\emph on
+Competitive Advantage
+\emph default
+ and 
+\emph on
+Disruptive Innovation
+\emph default
+ themes also substantially coincide.
+\end_layout
+
+\begin_layout Subsection*
+What do we believe is going on here?
+\end_layout
+
+\begin_layout Standard
+That our model appears not to resolve themes well seems disconcerting at
+ first blush.
+ Thinking more-deeply, we hypoethesize explanations.
+ This is the first step in improving our thematic-discriminant power.
+\end_layout
+
+\begin_layout Subsubsection*
+What you say versus what you mean.
+\end_layout
+
+\begin_layout Standard
+We must think carefully about what LDA text-mining is actually doing.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "LDA Model"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ calls deliberate attention to the distinction between 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcolor{Night}{
+\backslash
+textbf{Topics}}
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcolor{Brick}{
+\backslash
+textbf{Themes}}
+\end_layout
+
+\end_inset
+
+.
+ What's the difference? 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Blei2003"
+literal "false"
+
+\end_inset
+
+ distinguishes between 
+\emph on
+syntax
+\emph default
+ and 
+\emph on
+semantics
+\emph default
+.
+ Syntax pertains to the vocabulary and grammar of language.
+ Semantics addresses the implicit meaning.
+\end_layout
+
+\begin_layout Standard
+Now, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Blei2003"
+literal "false"
+
+\end_inset
+
+ makes clear that LDA makes no inferences about documents' semantics: The
+ meaning intended by the author.
+ 
+\emph on
+Topics
+\emph default
+ inferred by LDA are derived from the syntax.
+ LDA operates on documents' syntax: Vocabulary and, to a lesser extent,
+ grammar.
+ In fact, LDA's derivation makes use 
+\emph on
+exchangeability
+\emph default
+, a prominent result from 
+\begin_inset CommandInset citation
+LatexCommand cite
+after "§11.4"
+key "deFinetti1970"
+literal "false"
+
+\end_inset
+
+.
+ Exchangeabilty explicitly proscribes against any assumptions about ordering
+ of the terms in documents.
+ The resulting groupings may be more informationally-rich than those from
+ other machine-learning methods.
+ They remain nonetheless syntactic derivatives.
+\end_layout
+
+\begin_layout Standard
+Themes, in contrast, reside in the realm of 
+\emph on
+semantics
+\emph default
+.
+ When distinct themes' lexicons overlap significantly, bridging between
+ semantics and syntax requires inductive logic, at which statistical algorithms
+ tend to struggle 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Stove1986,Briggs2016"
+literal "false"
+
+\end_inset
+
+.
+ Human cognition's advantage over machine-calculated statistical deduction
+ persists for this type of reasoning.
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Kown-theme interpretation"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ presents a qualitative summary of the quantitative results in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Known-theme allocations"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ We use Porter's 
+\emph on
+Competitive Advantage
+\emph default
+ framework as a baseline.
+ The analysis in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Kown-theme interpretation"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ notes that many of the themes use similar vernaculars.
+ Recalling that LDA operates largely on syntax — vocabulary and grammar
+ — coincidence between themes with overlapping vocabularies is unsurprising.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Interpretation of 
+\begin_inset Formula $Pr\bigl(\textrm{Topic}_{\kappa}\mid\textrm{Document}_{n}\bigr)$
+\end_inset
+
+ estimates in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Known-theme allocations"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Kown-theme interpretation"
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/nhamlett/Documents/GitHub/UncertaintResearch/Biz-StratTopicAnalysis/graphics/200408 Thematic-Alignment Summary.svg.png
+	lyxscale 25
+	width 8.5cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+More to it than that.
+\end_layout
+
+\begin_layout Standard
+Our cursory demonstration here focuses on five distinct themes.
+ The last 40 years of business-strategy discourse has covered many more
+ topics than these.
+ Our cursory model employed ten latent-topic classes to look for five themes.
+ The 5,500-document, 
+\begin_inset Formula $1.25\times10^{6}$
+\end_inset
+
+-word corpus spans a diverse set of concepts.
+ 
+\end_layout
+
+\begin_layout Standard
+Beyond that, many documents will span multiple topics.
+ This will become particulary pronounced as we move from only titles and
+ abstracts to full-text articles.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Known-theme allocations"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ provides a preliminary hint of this.
+ 
+\emph on
+Text Segmentation
+\emph default
+ is a method to deal with this 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Memmon2020"
+literal "false"
+
+\end_inset
+
+.
+ This involves trying to break documents into topic-distinct segments.
+ One thereby obtains topically-distinct sub-documents.
+\end_layout
+
+\begin_layout Section*
+Remaining work.
+\end_layout
+
+\begin_layout Standard
+The preceding sets the stage for subsequent work in preparation for the
+ final presentation to the Annual Meeting.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Extend the corpus.
+\end_layout
+
+\begin_layout Standard
+The preceding analysis is based on only titles and abstracts.
+ Orthodoxy in the applied-statistics community holds that greater quantities
+ of data produce better results.
+ (See 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Wilson2019"
+literal "false"
+
+\end_inset
+
+ for a contrarian view.) Titles and abstracts provide an easy starting point.
+ Most publishers make them generally available.
+ They suffice to exercise the end-to-end topic-modeling machinery.
+\end_layout
+
+\begin_layout Standard
+Expanding the corpus to full-text articles will be the next step.
+ This represents a tradeoff.
+ Full-text articles will not be accessible for all journals.
+ In terms of Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "LDA Model"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, we definitely will end up with more 
+\emph on
+Terms
+\emph default
+ for modeling.
+ We may have fewer 
+\emph on
+Documents
+\emph default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Whether to mix in documents, for which only title and abstract are available
+ with full-text documents will be weighed.
+ Fortunately, the journals for which full-text articles are accessible account
+ for a majority of the documents.
+ This will provide a corpus whose dimensions roughly coincide with that
+ used by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Liu2019"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+Expand the use of grammatical information.
+\end_layout
+
+\begin_layout Standard
+The preceding work is largely vocabulary-based, and only makes minimal use
+ of grammatical content.
+ Getting LDA-inferred topics that more-closely coincide with themes may
+ be enhanced by making more-extensive use of the grammatical structure of
+ the corpus.
+ More-advanced annotation allows us to pull in more grammatical information
+ into the model 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Weiss2010,JSLabs"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+Additional model optimization.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Tuning
+\emph default
+ — looking for the best model parameters — is part of any statistical-modeling
+ activity.
+ The preceding work tuned the LDA model using a rather textbook, pedestrian
+ approach.
+ Opportunities remain to improve the amount of information that the LDA
+ model extracts from the corpus.
+ For example, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Hamlett2020"
+literal "false"
+
+\end_inset
+
+ illustrates a dimensional analysis of the vocabulary space.
+ This could help find the optimum vocabulary size, limited only to the 
+\emph on
+Terms
+\emph default
+ that convey the greatest amount of information about the corpus.
+\end_layout
+
+\begin_layout Subsection*
+Extend the LDA model.
+\end_layout
+
+\begin_layout Standard
+LDA-inferred 
+\emph on
+Topics
+\emph default
+ may not suffice to discriminate between topics of different themes.
+ The results from Figures 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Known-theme allocations"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Kown-theme interpretation"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ appear to indicate this.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Xie2013"
+literal "false"
+
+\end_inset
+
+ illustrated the combination of LDA with other text-mining methods.
+ This in of itself does not appear to give the theme-discriminating power
+ we seek.
+ Extensions to the LDA model suggested by Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "LDA Extension"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ potentially get us to greater theme-discriminant power.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+onecolumn
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Antons2019"
+key "Antons2019"
+literal "false"
+
+\end_inset
+
+Antons, D., Joshi, A.
+ M., Salge, T.
+ O.
+ (2019).
+ Content, Contribution, and Knowledge Consumption: Uncovering Hidden Topic
+ Structure and Rhetorical Signals in Scientific Texts.
+ 
+\emph on
+Journal of Management
+\emph default
+, 45(7).
+ 3035–3076.
+ https://bit.ly/3cu9jT3.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Bessen2018"
+key "Bessen2018"
+literal "false"
+
+\end_inset
+
+J.
+ Bessen, W Frick (2018).
+ How software is helping big companies dominate.
+ 
+\emph on
+Harvard Business Review
+\emph default
+, https://t.ly/eLRC.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Blei2003"
+key "Blei2003"
+literal "false"
+
+\end_inset
+
+David M.
+ Blei, Andrew Y.
+ Ng, Michael I.
+ Jordan (2003).
+ Latent Dirichlet Allocation.
+ 
+\emph on
+Journal of Machine Learning Research
+\emph default
+, 3(Jan):993-1022, https://t.ly/Moy3.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Blei2009"
+key "Blei2009"
+literal "false"
+
+\end_inset
+
+D.
+ M.
+ Blei, J.
+ D.
+ Lafferty, (2009).
+ Topic Models.
+ 
+\emph on
+Text Mining: Classification, Clustering and Applications
+\emph default
+, A.
+ N.
+ Srivastava, M.
+ Sahami, 
+\emph on
+eds
+\emph default
+, Boca Raton, Chapman & Hall/CRC, https://amzn.to/3dmOjNR.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Briggs2016"
+key "Briggs2016"
+literal "false"
+
+\end_inset
+
+W.
+ Briggs (2016).
+ 
+\emph on
+Uncertainty: The Soul of Modeling, Probability & Statistics
+\emph default
+, Switzerland: Springer, https://t.ly/AtMN.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Brooks2018"
+key "Brooks2018"
+literal "false"
+
+\end_inset
+
+G.
+ Brookes, T.
+ McEnery (2019).
+ The utility of topic modelling for discourse studies: A critical evaluation.
+ 
+\emph on
+Discourse Studies
+\emph default
+, 21(1):3-21, https://t.ly/Tle9.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Christensen2015"
+key "Christensen2015"
+literal "false"
+
+\end_inset
+
+C.
+ M.
+ Christensen, 
+\emph on
+et al
+\emph default
+, (2015).
+ What is distruptive innovation? 
+\emph on
+Harvard Business Review
+\emph default
+, https://t.ly/Zgjpg.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Davenport2018"
+key "Davenport2018"
+literal "false"
+
+\end_inset
+
+T.
+ H.
+ Davenport, R.
+ Ronanki (2018).
+ Artificial Intelligence for the real world.
+ 
+\emph on
+Harvard Business Review
+\emph default
+, https://t.ly/Yr3zl.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Drucker1993"
+key "Drucker1993"
+literal "false"
+
+\end_inset
+
+P.
+ F.
+ Drucker (1993).
+ 
+\emph on
+Post-Capitalist Society
+\emph default
+, Philadelphia, PA: Routledge, https://amzn.to/3dpLbAK.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Evans1993"
+key "Evans1993"
+literal "false"
+
+\end_inset
+
+M.
+ Evans, N.
+ Hastings, B.
+ Peacock (1993).
+ 
+\emph on
+Handbook of Statitical Distributions
+\emph default
+, second edition, New York: Wiley, https://amz.run/3C6Z.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Evans2016"
+key "Evans2016"
+literal "false"
+
+\end_inset
+
+ Evans D S, Schmalensee R (2016) The Businesses That Platforms Are Actually
+ Disrupting.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ September 21, 2016, https://t.ly/oHDV.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "deFinetti1970"
+key "deFinetti1970"
+literal "false"
+
+\end_inset
+
+B.
+ de Finetti (1970).
+ 
+\emph on
+Theory of Probability
+\emph default
+.
+ Republished 2017, New York: Wiley, https://amz.run/3D3n.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Hamlett2019"
+key "Hamlett2019"
+literal "false"
+
+\end_inset
+
+N.
+ A.
+ Hamlett (2019).
+ Competitive advantage based on information.
+ Working paper, https://bit.ly/3fQ1XLM.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Hamlett2020"
+key "Hamlett2020"
+literal "false"
+
+\end_inset
+
+N.
+ A.
+ Hamlett (2020).
+ A natural-language-processing exploration of the thematic landscape of
+ the field of Business Strategy, 1980-2020.
+ GitHub Repository, https://t.ly/qO7i.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Iansiti2017"
+key "Iansiti2017"
+literal "false"
+
+\end_inset
+
+ Iansiti M, Lakhani K R (2017) Managing Our Hub Economy.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+, https://t.ly/iBGD.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Jihan2018"
+key "Jihan2018"
+literal "false"
+
+\end_inset
+
+N.
+ Jihan (2018).
+ Bayesian Learning for Machine Learning: Part I - Introduction to Bayesian
+ Learning.
+ Research Blog, https://t.ly/HWbM.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "JSLabs"
+key "JSLabs"
+literal "false"
+
+\end_inset
+
+Annotators.
+ John Snow Labs, https://t.ly/xnMh.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Kiechel2012"
+key "Kiechel2012"
+literal "false"
+
+\end_inset
+
+W.
+ Kiechel (2012).
+ The Management Century.
+ 
+\emph on
+Harvard Business Review
+\emph default
+, https://t.ly/SW4y.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Koller2009"
+key "Koller2009"
+literal "false"
+
+\end_inset
+
+D.
+ Koller, N.
+ Friedman (2009).
+ 
+\emph on
+Probablistic Graphical Models
+\emph default
+.
+ Cambridge, MA: MIT Press, https://amz.run/3C6M.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Loehlin2003"
+key "Loehlin2003"
+literal "false"
+
+\end_inset
+
+J.
+ C.
+ Loehlin (2003).
+ 
+\emph on
+Latent Variable Models
+\emph default
+, fourth edition.
+ Mahwah, NJ: Routledge, https://amz.run/3C6L.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Lawson2015"
+key "Lawson2015"
+literal "false"
+
+\end_inset
+
+J.
+ Lawson (2015).
+
+\emph on
+ Design and Analysis of Experiments with R
+\emph default
+, Boca Raton, FL: CRC Press, https://amz.run/3C6x.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Liu2019"
+key "Liu2019"
+literal "false"
+
+\end_inset
+
+Y.
+ Liu, F.
+ Mai, C.
+ MacDonald (2019).
+ A Big-Data Approach to Understanding the Thematic Landscape of the Field
+ of Business Ethics, 1982–2016.
+ 
+\emph on
+J Bus Ethics
+\emph default
+ 160:127–150, https://t.ly/WnvH.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Martin2015"
+key "Martin2015"
+literal "false"
+
+\end_inset
+
+R.
+ L.
+ Martin (2015).
+ Strategy is about both resources and positioning.
+ 
+\emph on
+Harvard Business Review
+\emph default
+, https://t.ly/8dSu.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Memmon2020"
+key "Memmon2020"
+literal "false"
+
+\end_inset
+
+Memon, M.
+ Q., Lu, Y., Chen, P., Memon, A., Pathan, M.
+ S., & Zardari, Z.
+ A.
+ (2020).
+ An ensemble clustering approach for topic discovery using implicit text
+ segmentation.
+ 
+\emph on
+Journal of Information Science
+\emph default
+.
+ https://t.ly/zxad.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Pindyck2017"
+key "Pindyck2017"
+literal "false"
+
+\end_inset
+
+R.
+ Pindyck, D.
+ Rubinfield (2017).
+ 
+\emph on
+Microeconomics
+\emph default
+.
+ New York: Pearson, https://amz.run/3BsC.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Porter1979"
+key "Porter1979"
+literal "false"
+
+\end_inset
+
+M.
+ E.
+ Porter (1979).
+ How competitive forces shape strategy.
+ 
+\emph on
+Harvard Business Review
+\emph default
+, https://t.ly/YMGU.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Porter1985"
+key "Porter1985"
+literal "false"
+
+\end_inset
+
+M.
+ E.
+ Porter, V.
+ E.
+ Millar (1985).
+ How information gives you competitive advantage.
+ 
+\emph on
+Harvard Business Review
+\emph default
+, https://t.ly/BVvS.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Porter1990"
+key "Porter1990"
+literal "false"
+
+\end_inset
+
+M.
+ E.
+ Porter (1990).
+ 
+\emph on
+The Competitive Advantage of Nations
+\emph default
+.
+ New York: Free Press, https://amz.run/3E4T.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Porter1996"
+key "Porter1996"
+literal "false"
+
+\end_inset
+
+M.
+ E.
+ Porter (1996).
+ What is strategy? 
+\emph on
+Harvard Business Review
+\emph default
+, https://t.ly/tS88.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Ralston2012"
+key "Ralston2012"
+literal "false"
+
+\end_inset
+
+S.
+ J.
+ Ralston (2012).
+ Scientific Management and Pragmatism in PA Theory: Taylor and Dewey as
+ Strange Bedfellows.
+ 
+\emph on
+Social Sciences Research Network
+\emph default
+, https://t.ly/wPZb.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Reeves2012"
+key "Reeves2012"
+literal "false"
+
+\end_inset
+
+M.
+ Reeves, M.
+ S.
+ Deimler (2012).
+ 
+\emph on
+Adaptive Advantage: Winning Strategies for Uncertain Times
+\emph default
+, Boston, MA: Boston Consulting Group, https://amz.run/3CVk.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Reeves2018"
+key "Reeves2018"
+literal "false"
+
+\end_inset
+
+M.
+ Reeves, K.
+ Whitaker (2018).
+ Competing on the rate of learning.
+ BCG Henderson Institute, https://bit.ly/2WU0tXZ.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Ross2006"
+key "Ross2006"
+literal "false"
+
+\end_inset
+
+J.
+ W.
+ Ross, P.
+ Weill, D.
+ C.
+ Robertson (2006).
+ 
+\emph on
+Enterprise Architecture as Strategy
+\emph default
+.
+ Boston, MA: Harvard Business School Press, https://amz.run/3Dp5.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Schmiedel2019"
+key "Schmiedel2019"
+literal "false"
+
+\end_inset
+
+T.
+ Schhmiedel, 
+\emph on
+et al
+\emph default
+, (2019).
+ Topic Modeling as a Strategy of Inquiry in Organizational Research: A Tutorial
+ With an Application Example on Organizational Culture.
+ 
+\emph on
+Organizational Research Methods
+\emph default
+ 22(4):941-963, https://bit.ly/2WapzTu.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Srivastava2009"
+key "Srivastava2009"
+literal "false"
+
+\end_inset
+
+ A.
+ N.
+ Srivastava, M.
+ Sahami, 
+\emph on
+eds
+\emph default
+, 
+\emph on
+Text Mining: Classification, Clustering and Applications
+\emph default
+, Boca Raton, Chapman & Hall/CRC, https://amzn.to/3dmOjNR.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Stewart2009"
+key "Stewart2009"
+literal "false"
+
+\end_inset
+
+M.
+ Stewart (2009).
+ 
+\emph on
+The Management Myth
+\emph default
+.
+ New York: Norton, https://amz.run/3Bs2.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Stove1986"
+key "Stove1986"
+literal "false"
+
+\end_inset
+
+D.
+ C.
+ Stove (1986).
+ 
+\emph on
+The Rationality of Induction
+\emph default
+.
+ Oxford, UK: Clarenden Press, https://amz.run/3CYh.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Tay2018"
+key "Tay2018"
+literal "false"
+
+\end_inset
+
+L.
+ Tay, 
+\emph on
+et al
+\emph default
+, (2018).
+ Big Data Visualizations in Organizational Science.
+ 
+\emph on
+Organizational Research Methods
+\emph default
+, 21(3):660-668, https://bit.ly/2xGgqZf.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Teece1998"
+key "Teece1998"
+literal "false"
+
+\end_inset
+
+D.
+ J.
+ Teece, 
+\emph on
+et al
+\emph default
+, (1997).
+ Dynamic capabilities and strategic management.
+ 
+\emph on
+Strategic Management Journal
+\emph default
+, 18(7):509-533 https://bit.ly/2WdMMnT.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Teece2009"
+key "Teece2009"
+literal "false"
+
+\end_inset
+
+D.
+ J.
+ Teece (2009).
+ 
+\emph on
+Dynamic Capabilities
+\emph default
+, Oxford, UK: Oxford University Press, https://amzn.to/3aQFeLV.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Torabi2019"
+key "Torabi2019"
+literal "false"
+
+\end_inset
+
+Torabi A, F., & Taboada, M.
+ (2019).
+ Big Data and quality data for fake news and misinformation detection.
+ 
+\emph on
+Big Data & Society
+\emph default
+, January–June 2019: 1–14, https://bit.ly/3cuXsUH
+\emph on
+.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "VanAlstyne2016"
+key "VanAlstyne2016"
+literal "true"
+
+\end_inset
+
+ Van Alstybne, M.
+ W.
+ Parker, G.
+ G., Chouldary, S.
+ P., (2016) Pipelines, Platforms, and the New Rules of Strategy.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+, https://t.ly/iaYl.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Vladawsky-Berger2020"
+key "Vladawsky-Berger2020"
+literal "false"
+
+\end_inset
+
+I.
+ Vladawsky-Berger (2020).
+ Conceptualizing AI in human terms is misleading.
+ 
+\emph on
+Wall Street Journal
+\emph default
+, https://t.ly/pipc.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Wallace2020"
+key "Wallace2020"
+literal "false"
+
+\end_inset
+
+Wallace, M.
+ (2020), Analysis in an imperfect world.
+ 
+\emph on
+Significance
+\emph default
+, 17: 14-19.
+ https://t.ly/QQHo.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Waters2016"
+key "Waters2016"
+literal "false"
+
+\end_inset
+
+R.
+ Waters (2016).
+ Artificial intelligence: Can Watson save IBM? 
+\emph on
+Financial Times, https://on.ft.com/35O7AoS.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Weiss2010"
+key "Weiss2010"
+literal "false"
+
+\end_inset
+
+S.
+ M.
+ Weiss, N.
+ Indurkhya, T.
+ Zhang (2010).
+ 
+\emph on
+Fundamentals of Predictive Text Mining
+\emph default
+, London: Springer-Verlag, https://t.ly/Mfu4.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Wilson2019"
+key "Wilson2019"
+literal "false"
+
+\end_inset
+
+H.
+ J.
+ Wilson, P.
+ R.
+ Daugherty, C.
+ Davenport (2019).
+ The future of AI will be about less data, not more.
+ 
+\emph on
+Harvard Business Review
+\emph default
+, https://t.ly/Fn4J.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Xie2013"
+key "Xie2013"
+literal "false"
+
+\end_inset
+
+P.
+ Xie, E.
+ P.
+ Xing (2013).
+ Integrating Document Clustering and Topic Modeling.
+ UAI'13: Proceedings of the Twenty-Ninth Conference on Uncertainty in Artificial
+ Intelligence 2013:649-703, http://t.ly/178d.
+\end_layout
+
+\end_body
+\end_document
