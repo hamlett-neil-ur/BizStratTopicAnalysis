@@ -9,6 +9,10 @@
 
 # A natural-language-processing exploration of the thematic landscape of the field of *Business Strategy*, 1980-2020.
 
+<p align = "center">
+December 30, 2020
+</p>
+
 ## Abstract
 
 <a  href="https://youtu.be/DRO1xVMoScE" target="_blank">
@@ -19,6 +23,8 @@ A novel combination of Natural-Language Processing (NLP) and Machine-Learning (M
 A corpus of more than 3,000 full-text journal articles spanning 40 years provides the corpus. These articles are drawn from a single journal, [*Strategic Management Journal*](https://onlinelibrary.wiley.com/journal/10970266). The corpus contains more than 27 million words. Training a combined NLP-ML method using the corpus groups included documents into clusters. Applying the resulting model to 22 known-theme documents — corresponding to five prominent business-strategy themes — "calibrates" the clusters. This allows consideration of whether other documents in the corpus correspond to a-priori-defined themes.
 
 ## Executive Summary.
+
+Finding other documents that correspond to a document of interest is a common challenge in research. Academic researchers seek support for their theses. Ascertaining originality is a common challenge in intellectual property.
 
 
 
