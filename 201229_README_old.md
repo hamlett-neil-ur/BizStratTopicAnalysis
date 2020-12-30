@@ -1,6 +1,6 @@
 
 <p align="center">
-<img width="150" align = "center" src="./graphics/UR_Logo.jpg" > 
+<img width="150" align = "center" src="./graphics/UR_Logo.jpg" >
 
 
 </p>
@@ -9,17 +9,21 @@
 
 # A natural-language-processing exploration of the thematic landscape of the field of *Business Strategy*, 1980-2020.
 
+<p align = "center">
+April 2020
+</p>
+
 ## Executive Summary.
 
 ### Background.  
 
-The field of business strategy has passed through at least five three distinct identifiable themes.  Early business strategy was arguably less-strategic. It focused on operational efficiency and market-share concentration. *Scientific management*, beginning in the late 1800s, emphasized operational efficiency. This subsequently led to the fields of Operations Research and Management Science. They emphasized optimization and economies of scale. 
+The field of business strategy has passed through at least five three distinct identifiable themes.  Early business strategy was arguably less-strategic. It focused on operational efficiency and market-share concentration. *Scientific management*, beginning in the late 1800s, emphasized operational efficiency. This subsequently led to the fields of Operations Research and Management Science. They emphasized optimization and economies of scale.
 
 In the 1980's, Harvard Business School professor Michael Porter described one of the first coherent theories for business strategy.  He observed that price doesn't explain everything in marketplace competition.  Porter's paradigm focused on resources and positioning.  It also considered industry structures and balances of power between firms, their suppliers, and their customers [[Porter, 1979]](https://hbr.org/1979/03/how-competitive-forces-shape-strategy).  Substantially a microeconomic theory, it remains however largely an industrial-age view.
 
 Clayton Christensen, one of Porter's students, described *Disruptive Innovation*.  This framework describes how unexpected, seemingly-precipitous shifts in industry structure can occur.  Christensen's view regarding overuse of the term "disruption" notwithstanding [[C. M. Christensen, *et al*, 2015]](https://hbr.org/2015/12/what-is-disruptive-innovation), it tells how "low-end" players can "eat their way up" the market.  Incumbents, focused on their most-demanding customers, are caught flat-footed as less-distinguishing customers progressively defect to the disrupter.
 
-University of California professor David Teece introduced a competency-focused view of strategy in the early 2000s with his *Dynamic Capabilities* framework [[Teece, 2009]](https://amzn.to/3aQFeLV).  Teece observed that organizations with sustained differentiated performance were characterized by the ability to reconfigure in response to new opportunities and threats. 
+University of California professor David Teece introduced a competency-focused view of strategy in the early 2000s with his *Dynamic Capabilities* framework [[Teece, 2009]](https://amzn.to/3aQFeLV).  Teece observed that organizations with sustained differentiated performance were characterized by the ability to reconfigure in response to new opportunities and threats.
 
 The role of information and knowledge have more-recently become an important aspect of strategic differentiation. Peter Drucker observed in the early 1990s that knowledge contributed more to corporate wealth than traditional forms of capital [[Drucker, 1993]](https://amzn.to/3aQFeLV).  Technology operating models — most-visibly exemplified by Facebook, Apple, Amazon, Netflix, Google (FAANGs) — largely employ information-centric operating models.  Independent researcher Neil Hamlett formulated an operational perspective of this [[Hamlett, 2019a]](https://drive.google.com/open?id=1Cq7oM6BYrGWxmjf1bdhrdrORZnKBvLu4).
 
@@ -36,7 +40,7 @@ Results from this research will be of interest to academic researchers in busine
 
 <img width="600" align = "right" src="./graphics/200408 Thematic-Alignment Summary.svg.png" >
 
-We apply eight *known-theme* documents to the model.  These are documents regarding which we have high confidence that they address the central business-strategy themes we identified. Some are seminal articles from researchers from whom the concepts originated. 
+We apply eight *known-theme* documents to the model.  These are documents regarding which we have high confidence that they address the central business-strategy themes we identified. Some are seminal articles from researchers from whom the concepts originated.
 
 Each of the known-themed documents resonates with one to three topics identified by the model.  The model however fails to distinguish between some themes.  The model associates some documents from distinct themes with common topics.
 
@@ -58,13 +62,13 @@ This project exercises a diverse set of tools and technologies. The figure to th
 
 Our data sources exist in [HTML-5](https://html.spec.whatwg.org/) format on publicly-accessible websites. We *scrape* them using open-source packages in python. The python logic assembles the results for each journal into a python dictionary, and then exports tthe results to [JSON](https://www.json.org/json-en.html) files.
 
-The *heavy lifting* is accomplished in [Apache Spark Scala](https://spark.apache.org/docs/0.9.1/scala-programming-guide.html) hosted on [databricks](https://databricks.com/). This includes typical steps using [Annotators](https://nlp.johnsnowlabs.com/docs/en/annotators) from [John Snow LABS](https://www.johnsnowlabs.com/) [spark-nlp](https://nlp.johnsnowlabs.com/) libraries. The final data-assembly and modeling itself is performed using [Apache Spark MLlib](https://spark.apache.org/mllib/). 
+The *heavy lifting* is accomplished in [Apache Spark Scala](https://spark.apache.org/docs/0.9.1/scala-programming-guide.html) hosted on [databricks](https://databricks.com/). This includes typical steps using [Annotators](https://nlp.johnsnowlabs.com/docs/en/annotators) from [John Snow LABS](https://www.johnsnowlabs.com/) [spark-nlp](https://nlp.johnsnowlabs.com/) libraries. The final data-assembly and modeling itself is performed using [Apache Spark MLlib](https://spark.apache.org/mllib/).
 
 Interpretation and visualization are accomplished through a combination of python and Apache Spark scala.  Some heavy-lift calculations, such as Bayesian inversion and entropy calculations occur in Scala. More-pedestrian data transformations occur in python using the [Matplotlib](https://matplotlib.org/) and [Seaborn](https://seaborn.pydata.org/) packages.
 
 ### Business understanding.
 
-We seek to identify leading themes in business strategy from the published literature. This potentially is a challenging problem.  The boundaries of the discipline are fuzzy.  Distinguishing between strategy and adjacent fields proves challenging for MBA students. 
+We seek to identify leading themes in business strategy from the published literature. This potentially is a challenging problem.  The boundaries of the discipline are fuzzy.  Distinguishing between strategy and adjacent fields proves challenging for MBA students.
 
 <img width="750" align = "left" src="./graphics/200313 Biz-Strategy Themes.svg.png" >
 
@@ -86,7 +90,7 @@ For purposes of this study we assume five distinct themes in business strategy. 
 
 Fourteen candidate journals were initially identified.  The table below summarizes them.  That nearly every journal offers a distinct web presentation is a key consideration.  Recurring effort is required to "scrape" each journal.  
 
-The number of  years in publication emerges therefore as a key consideration.  Journals for which only a few years of issues were available are not worth the effort to attempt.  Journals not in publication for more than five or so years were eliminated from further investigation. Their marginal contribution to the size of the corpus seemed unjustified by the required effort. 
+The number of  years in publication emerges therefore as a key consideration.  Journals for which only a few years of issues were available are not worth the effort to attempt.  Journals not in publication for more than five or so years were eliminated from further investigation. Their marginal contribution to the size of the corpus seemed unjustified by the required effort.
 
 |Candidate Journal|Years Published|Digital Accessiblity|Status|
 |----|----|----|----|
@@ -106,13 +110,13 @@ The number of  years in publication emerges therefore as a key consideration.  J
 |[*Harvard Business Review*](https://hbr.org/)|Since 1956|Javascript by leading publishing firm|Not attempted: insufficiently specialized ⚠️|
 
 
-<img width="550" align = "right" src="./graphics/smj_article_count.png" > 
+<img width="550" align = "right" src="./graphics/smj_article_count.png" >
 
 The technical chartacteristics of journals' web presence is a second consideration. HTML is the most-straightforward format in which to receive the content.  Although python's [Selenium](https://selenium-python.readthedocs.io/) package allows for harvesting of javascript content, this was used sparingly.  
 
 The degree of specialization of the journal provides a third consideration.  The [*Journal of Strategic Information Systems*](https://www.sciencedirect.com/journal/the-journal-of-strategic-information-systems/issues) — although in publication for nearly two decades and in a straightforward html format — appears tangential to the central focus of business strategy.  Also, [*Harvard Business Review*](https://hbr.org/)'s presentation makes filtering of strategy-related content difficult.  [*strategy+business*](https://www.strategy-business.com/) in contrast offers an easy filtering approach.
 
-The accessibility of essential attributes became a technical consideration.  Some journals — e.g., [*California Management Review*](https://cmr.berkeley.edu/) and [*Journal of Business Strategies*](https://www.questia.com/library/p578/journal-of-business-strategies)  — do not for example provide explicit fields for publication date of issues and articles. Additional work is necessary in order to derive publication dates. Also, not all journals provide keywords. 
+The accessibility of essential attributes became a technical consideration.  Some journals — e.g., [*California Management Review*](https://cmr.berkeley.edu/) and [*Journal of Business Strategies*](https://www.questia.com/library/p578/journal-of-business-strategies)  — do not for example provide explicit fields for publication date of issues and articles. Additional work is necessary in order to derive publication dates. Also, not all journals provide keywords.
 
 Apart from completeness, temporal distribution of content over time becomes an issue. The figure to the right shows article count by year for [*Strategic Management*](https://onlinelibrary.wiley.com/journal/10970266), the source for a plurality of the content. The journal's peak year contained six times the number of articles compared to early years. Although unsupervised learning is our use case, imbalance in data can be a concern. [[J. H. Xue, M. Tittering, 2008]](https://www.sciencedirect.com/science/article/abs/pii/S0031320307005006) is one instance of elaboration.
 
@@ -125,10 +129,10 @@ Data preparation occurs in two stages, each using a distinct technology.
 
 🅐 **Data acquisition** is accomplished using [python 3.𝖭](https://www.python.org/).  We principally use the [Requests](https://requests.readthedocs.io/en/master/), [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), with occasional use of [Selenium](https://selenium-python.readthedocs.io/).  Python-realized logic assembles the data into a [dictionary](https://docs.python.org/3/tutorial/datastructures.html#dictionaries) data object.  This is exported into a [JSON](https://docs.python.org/3/library/json.html) file.
 
-The image to the right contains a slice of an exemplary [JSON](https://www.json.org/json-en.html). This depiction is a screen capture from [Smart JSON Editor](http://www.smartjsoneditor.com/) for Mac OS.  The information is hierarchical in structure:  Volumes contain issues, which contain articles.  The structure here contains additional metadata attributes to facilitate data-harvesting and management.  Additionally, not all publications' web presentations conform to this hierarchy. 
+The image to the right contains a slice of an exemplary [JSON](https://www.json.org/json-en.html). This depiction is a screen capture from [Smart JSON Editor](http://www.smartjsoneditor.com/) for Mac OS.  The information is hierarchical in structure:  Volumes contain issues, which contain articles.  The structure here contains additional metadata attributes to facilitate data-harvesting and management.  Additionally, not all publications' web presentations conform to this hierarchy.
 
-🅑 **Data assembly** occurs in [Apache Spark](https://spark.apache.org/docs/0.9.1/index.html) [Scala](https://spark.apache.org/docs/0.9.1/scala-programming-guide.html) programming language.  We specifically use the `play-json_2.11` package, part of the [Play framework](https://www.lightbend.com/play-framework-part-of-lightbend-platform) for Scala-based web development. Using the [Databricks Community Edition](https://community.cloud.databricks.com/login.html) package-management procedures occur according to the platform operator's procedures for [Libraries](https://docs.databricks.com/libraries.html). 
- 
+🅑 **Data assembly** occurs in [Apache Spark](https://spark.apache.org/docs/0.9.1/index.html) [Scala](https://spark.apache.org/docs/0.9.1/scala-programming-guide.html) programming language.  We specifically use the `play-json_2.11` package, part of the [Play framework](https://www.lightbend.com/play-framework-part-of-lightbend-platform) for Scala-based web development. Using the [Databricks Community Edition](https://community.cloud.databricks.com/login.html) package-management procedures occur according to the platform operator's procedures for [Libraries](https://docs.databricks.com/libraries.html).
+
 The DataFrame stage is the point at which content from all sources conforms to the same schema.  The schema below shows results from the `printSchema` method for a Scala [DataFrames](https://spark.apache.org/docs/1.5.0/api/java/org/apache/spark/sql/DataFrame.html).  The dataframes from all sources are concatenated into a single DataFrame using the `.union` method.
 
 ```root
@@ -168,11 +172,11 @@ The `Transformation` assets convert the JSON files into [Spark DataFrames](https
 
 We seek to detect latent — not specified *a priori*, not directly-observable in the data — topics in our corpus.  We also seek to estimate the strength of association between those topics and the terms.  The figure to the right conceptualizes this. We see the `Topic`, which we try and infer from the statistics of the corpus.  We explicitly know the `term`s in our corpus and the `document`s to which they belong.
 
-<img width="450" align = "left" src="./graphics/200309 Key Analysis Associationssvg.svg.jpg" > 
+<img width="450" align = "left" src="./graphics/200309 Key Analysis Associationssvg.svg.jpg" >
 
-The figure to the left conceptualizes the problem. Our *Latent Dirichlet Model* (LDA) model belongs to the family of probabilistic graphical models (e.g., [[D. Koller, N. Friedman, 2009]](https://amzn.to/2x8rOwV)). The vertices (variables) in blue-gray colors are what we capture in the model.  The brown-colored vertex — exogenous to the data — is what really interests us. 
+The figure to the left conceptualizes the problem. Our *Latent Dirichlet Model* (LDA) model belongs to the family of probabilistic graphical models (e.g., [[D. Koller, N. Friedman, 2009]](https://amzn.to/2x8rOwV)). The vertices (variables) in blue-gray colors are what we capture in the model.  The brown-colored vertex — exogenous to the data — is what really interests us.
 
-Effectively, we have two "layers" of latent variables ([[J. C. Lohelin, 2009]](https://amzn.to/2xQbOzm)). The `topic`s inferred by the model are the first layer. These are latent groupings based on `term` and `document` attributes. Relationships between `theme`s and `topic`s are subsequently induced via means not yet described here. 
+Effectively, we have two "layers" of latent variables ([[J. C. Lohelin, 2009]](https://amzn.to/2xQbOzm)). The `topic`s inferred by the model are the first layer. These are latent groupings based on `term` and `document` attributes. Relationships between `theme`s and `topic`s are subsequently induced via means not yet described here.
 
 That our quantitative model doesn't directly estimate what interests us happens frequently in modeling [[M. Wallace, 2020]](https://rss.onlinelibrary.wiley.com/doi/10.1111/j.1740-9713.2020.01353.x).  Data we apply to our models are *measurements*.  In general, measurements are representations of some underlying phenomenon, referred to in measurement theory as *measurands* [[S. Salicone, M. Prioli, 2018]](https://www.springer.com/us/book/9783319741376).  Measurements only very rarely represent their associated measurands with perfect fidelity. Modelers do well to pay heed to this.
 
@@ -197,13 +201,13 @@ We use a [Databricks](https://databricks.com/) demonstration "[Topic Modeling wi
 
 In anticipation of subsequent GridSearch, we instantiate our model as a [`org.apache.spark.ml.Pipeline`](https://spark.apache.org/docs/latest/ml-pipeline.html). Our pipeline stages consist of all of the functions in the [Transformers](https://nlp.johnsnowlabs.com/docs/en/transformers) [Annotators](https://nlp.johnsnowlabs.com/docs/en/annotators) from [spark-nlp](https://www.johnsnowlabs.com/).  We perform a straightforward transformation of the pipeline output to make the format compatible with [`CountVectorizer`](https://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.ml.feature.CountVectorizer).  Our gridsearch parameter space will span parameters for [`CountVectorizer`](https://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.ml.feature.CountVectorizer) and [`org.apache.spark.ml.clustering.LDA`](https://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.ml.clustering.LDA).
 
-The construction of our annotation `Pipeline()` follows the following steps. We are using the [Transformers](https://nlp.johnsnowlabs.com/docs/en/transformers) [Annotators](https://nlp.johnsnowlabs.com/docs/en/annotators) from [`spark-nlp`](https://www.johnsnowlabs.com/). 
+The construction of our annotation `Pipeline()` follows the following steps. We are using the [Transformers](https://nlp.johnsnowlabs.com/docs/en/transformers) [Annotators](https://nlp.johnsnowlabs.com/docs/en/annotators) from [`spark-nlp`](https://www.johnsnowlabs.com/).
 
-⓵ The spark-nlp [`DocumentAssembler`](https://nlp.johnsnowlabs.com/docs/en/transformers#documentassembler-getting-data-in) is the first step.  Its API documentation is [`DocumentAssembler`](https://nlp.johnsnowlabs.com/api/#com.johnsnowlabs.nlp.DocumentAssembler). 
+⓵ The spark-nlp [`DocumentAssembler`](https://nlp.johnsnowlabs.com/docs/en/transformers#documentassembler-getting-data-in) is the first step.  Its API documentation is [`DocumentAssembler`](https://nlp.johnsnowlabs.com/api/#com.johnsnowlabs.nlp.DocumentAssembler).
 
 ⓶ The [`SentenceDetector`](https://nlp.johnsnowlabs.com/docs/en/annotators#sentencedetector) comes next.    
 
-⓷ As usual, our sentences are decoposed into tokens by the [`Tokenizer`](https://nlp.johnsnowlabs.com/docs/en/annotators#tokenizer).  The datailed API is [`Tokenizer`](https://nlp.johnsnowlabs.com/api/#com.johnsnowlabs.nlp.annotators.Tokenizer). 
+⓷ As usual, our sentences are decoposed into tokens by the [`Tokenizer`](https://nlp.johnsnowlabs.com/docs/en/annotators#tokenizer).  The datailed API is [`Tokenizer`](https://nlp.johnsnowlabs.com/api/#com.johnsnowlabs.nlp.annotators.Tokenizer).
 
 ⓸ We next use the [`Stemmer`](https://nlp.johnsnowlabs.com/docs/en/annotators#stemmer).  Its API is at [`Stemmer`](https://nlp.johnsnowlabs.com/api/#com.johnsnowlabs.nlp.annotators.Stemmer).  This proves somewhat of a klunky way to truncate suffixes.  We prefer the [`Lemmatizer`](https://nlp.johnsnowlabs.com/docs/en/annotators#lemmatizer), with API [`Lemmatizer`](https://nlp.johnsnowlabs.com/api/#com.johnsnowlabs.nlp.annotators.Lemmatizer).  This requires a dictionary.  A pretrained Lemmatizer is apparently available as a [`PretainedModel`](https://github.com/JohnSnowLabs/spark-nlp-models).  Its use is not altogether clear.  We therefore go with the `Stemmer` for now.
 
@@ -215,7 +219,7 @@ After stage ⓹, we have a corpus of slightly more than 5,500 documents. Collect
 
 All [`CountVectorizer`](https://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.ml.feature.CountVectorizer) needs is the `result` attribute. This *Munging data* article  [Working with Spark ArrayType columns](https://mungingdata.com/apache-spark/arraytype-columns/) gives us a pattern to reshape our dataframes.  We use a twist on this.  
 
-Specifically, we use 
+Specifically, we use
       ```stratLitNgrams.select(col("volIssueTitleHash"),
                                col("nGrams.result").as("token"))```
 method.  The `result` attribute is the `token` we need to feed the `import org.apache.spark.ml.feature.CountVectorizer()` transformer needs.  We colect this final result in a dataframe.    
@@ -226,10 +230,10 @@ Now, LDA is effectively a type of clustering method.  We score such algorithms b
 
 Fundamentally based on Euclidian geometery, dimensionality arises as a concern. We ideally seek to avoid "scanning" over dimensions that do not discriminate between class membership.  We want to focus our attention on dimensions that do.
 
-<img width="750" align = "right" src="./graphics/count-vector singular-value spectrum.png" > 
+<img width="750" align = "right" src="./graphics/count-vector singular-value spectrum.png" >
 
 
-[Singular-value decomposition](http://web.mit.edu/course/other/be.400/OldFiles/www/SVD/Singular_Value_Decomposition.htm) gives us a way to tell how-important each dimension in our feature space is [[Golub, 1989, §8.3]](https://amzn.to/2VHuzNT), [[Horn, 1985, §7.3.5]](https://amzn.to/3aoWdEP). The figure to the right gives us the singular-value spectrum of the token-count features for an exemplary model matrix for our corpus.  Singular values tell us how much variation is associated with each dimension in the token-count feature space. 
+[Singular-value decomposition](http://web.mit.edu/course/other/be.400/OldFiles/www/SVD/Singular_Value_Decomposition.htm) gives us a way to tell how-important each dimension in our feature space is [[Golub, 1989, §8.3]](https://amzn.to/2VHuzNT), [[Horn, 1985, §7.3.5]](https://amzn.to/3aoWdEP). The figure to the right gives us the singular-value spectrum of the token-count features for an exemplary model matrix for our corpus.  Singular values tell us how much variation is associated with each dimension in the token-count feature space.
 
 Despite apparance, this feature space is not very dimensionally-dominated. Two visualizations inform us about this. First, the largest and smallest singular values differ by a factor of a little bit more than an order of magnitude. Their ratios are less than twenty.  We see that the ratios of the consecutive singular values are a little bit more than unity.  The exception is the ratio of the first to the second, which is a factor of two.
 
@@ -274,7 +278,7 @@ The table below summarizes the [Apache Spark](https://spark.apache.org/) used fo
 
 <img width="700" align = "right" src="./graphics/200408 Biz-Strategy Known Docs.svg.png" >
 
-We identified eight documents known to correspond the the key themes we seek to identify. The table to the right delinates them.  These documents are mostly from key researchers who originated the frameworks associated with the themes. 
+We identified eight documents known to correspond the the key themes we seek to identify. The table to the right delinates them.  These documents are mostly from key researchers who originated the frameworks associated with the themes.
 
 For example, *Competitive Advantage* was developed by Harvard Business School professor Michael Porter during the 1980s. Clayton Christensen, one of his students, first described the *Disruptive Innovation* concept. University of California professor David Teece originated the *Dynamic Capabilties* framework.
 
@@ -282,7 +286,7 @@ When article abstracts were available, we use those.  Otherwise, we judiciously 
 
 <img width="750" align = "left" src="./graphics/known_docuement_topics.png" >
 
-The figure to the left depicts a heat map of the belief allocated by the LDA algorithm to each topic for each document.  In terms of conditional probabilities, these are 𝒫𝓇{Topic | Document}.  We show the allocations for each known-theme document. 
+The figure to the left depicts a heat map of the belief allocated by the LDA algorithm to each topic for each document.  In terms of conditional probabilities, these are 𝒫𝓇{Topic | Document}.  We show the allocations for each known-theme document.
 
 At least three observations are noteworthy.  The *signal strength* is the first. For a relatively strong association, the largest allocated belief is on the order of 0.15.  
 
@@ -313,7 +317,7 @@ Now, our [Annotators](https://nlp.johnsnowlabs.com/docs/en/annotators) work sole
 This means that we can only infer semantics from syntax if there is an unambiguous relationship between the two.  That is, we can distinguish two distinct themes by their syntax *if and only if* their vocabulary and grammar are substantially distinct.  We cannot distinguish themes of they make extensive use of a common vocabulary and grammar.
 
 
-<img width="300" align = "right" src="./graphics/200410 Topic to Theme.svg.png" > 
+<img width="300" align = "right" src="./graphics/200410 Topic to Theme.svg.png" >
 
 We see lots of overlap in topic `4` for example between three themes:  *Competitive advantage*, *Dynamic capabilities*, and *Information as an asset*.  The litearature for these themes apparently make extensive use of the same vocabulary. We do not therefore have a one-to-one association between topics and themes.
 
@@ -323,7 +327,7 @@ The figure to the left illustrates.  We observed that the LDA model itself belog
 
 Now, This is unlikely to provide a perfect classifier. Also, how to get our <img width="250" src="./graphics/Pr_Theme_Cond_Tpics.png" >s requires additional thought.  Recognizing however that our LDA model does not in this case provide our final result is the key point, here.
 
-   
+
 ## Further directions. ([INFORMS Annual Meeting](http://meetings2.informs.org/wordpress/nationalharbor2020/),  November 8-11, 2020).
 
 ⓵ **Quantitative model evaluation**. Evaluation to to date focused on entropy analyis.  [[Blei, *et al*, 2003]](http://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf) describes a *perplexity* statistic.  Perplexity somewhat resembles entropy, in that it calculates log-probabilities. The senimal paper also describes analysis resembling cross-validation.  We explore some of these methods.
@@ -336,6 +340,3 @@ Now, This is unlikely to provide a perfect classifier. Also, how to get our <img
 _____
 _____
 _____
-
-    
-    
