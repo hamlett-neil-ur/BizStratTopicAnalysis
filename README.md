@@ -83,7 +83,7 @@ The discussion now turns to the technical approach. The combined NLP-ML is first
 
 ### NLP-ML modeling.
 
-The <a href="#epistemic_structure">epistemic-structure figure</a> above also refers to the NLP and ML approaches. This modeling is accomplished using the "document topic-classification model" in activity ⓵ of the <a href="#use_case">use-case model</a> above.  First, *Latent Dirichlet Allocation* (LDA) is applied to the annotated corpus. Described in detail in <a href="#Blei2003">[Blei2003]</a>, LDA is a graphical approach that infers conditional-probabilistic associations between topics, terms, and documents. Topics are *latent* variables (e.g., <a href="#Loehlin2004">[Loehlin2004]</a>). A *Dirichlet* distribution is assumed LDA estimation. Finally, the technique *allocates* probabilities that a topic is contained in a specified document.
+The <a href="#epistemic_structure">epistemic-structure figure</a> above also refers to the NLP and ML approaches. This is accomplished by the "document topic-classification model" during activity ⓵ of the <a href="#use_case">use-case model</a> above.  First, *Latent Dirichlet Allocation* (LDA) is applied to the annotated corpus. Described in detail in <a href="#Blei2003">[Blei2003]</a>, LDA is a graphical approach that infers conditional-probabilistic associations between topics, terms, and documents. Topics are *latent* variables (e.g., <a href="#Loehlin2004">[Loehlin2004]</a>). A *Dirichlet* distribution is assumed LDA estimation. Finally, the technique *allocates* probabilities that a topic is contained in a specified document.
 
 
 ### Technology and tools.
