@@ -35,11 +35,13 @@ Key words represent the most common method for searching literature. Many public
 
 ## Motivation and Objective.
 
-Employment of *all-available* information to find documents that are thematically similar to given ones comprises the objective. Conventional keyword searches employ only metadata about documents in a corpus. The combined NLP-ML approach employs the full document text. Determination by researchers about appropriateness of thematic associations provides another source.
+Employment of *all-available* information to find documents that are thematically similar to given ones comprises the objective. Conventional keyword searches employ only metadata about documents in a corpus. The combined NLP-ML approach employs the full document text. Determination by researchers about appropriateness of thematic associations provides another information input.
 
 <img width="600" align = "right" src="./graphics/201011 NLP-ML UseCaseDiagram.png" alt="2020 INFORMS Ann'l Meeting">
 
-The use-case view to the right depicts the functional context within which the combined NLP-ML approach might be employed. The work here demonstrates activities ⓵, ⓶, and ⓷.
+The use-case view to the right depicts the functional context within which the combined NLP-ML approach might be employed. The work here demonstrates activities ⓵, ⓶, and ⓷. Activity ⓵ employs
+
+
 
 ## References.
 <a id="Antons2019">[Antons2019]</a> Antons, D., Joshi, A. M., Salge, T. O. (2019). Content, Contribution, and Knowl- edge Consumption: Uncov- ering Hidden Topic Structure and Rhetorical Signals in Scientific Texts. Journal of Management, 45(7). 3035– 3076. https://bit.ly/3cu9jT3.
@@ -50,10 +52,18 @@ The use-case view to the right depicts the functional context within which the c
 
 <a id="Brooks2018">[Brooks2018]</a> G. Brookes, T. McEnery (2019). The utility of topic modelling for discourse studies: A critical evaluation. Discourse Studies, 21(1):3-21, https://t.ly/Tle9.
 
-<a id="Hamlett2020">[Hamlett2020]</a> N. A. Hamlett (2020). A natural-language-processing exploration of the thematic landscape of the field of Business Strategy, 1980-2020. April 2020, https://bityl.co/51Ut.  
+<a id="Christensen1995">[Christensen1995]</a> C. M. Christensen, J. L. Bower (1995). Disruptive technologies: Catching the wave. Harvard Business Review, https://bityl.co/51Vz.
+
+<a id="Drucker1993">[Drucker1993]</a> P. F. Drucker (1993). Post-Capitalist Society, Philadelphia, PA: Routledge, https://amzn.to/3dpLbAK.
+
+<a id="Hamlett2020">[Hamlett2020]</a> N. A. Hamlett (2020). A natural-language-processing exploration of the thematic landscape of the field of Business Strategy, 1980-2020. April 2020, https://bityl.co/51Vf.  
 
 <a id="Liu2019">[Liu2019]</a> Y. Liu, F. Mai, C. MacDonald (2019). A Big-Data Approach to Understanding the Thematic Landscape of the Field of Business Ethics, 1982– 2016. J Bus Ethics 160:127– 150, https://t.ly/WnvH.
 
-<a id="Schmeidel2019">[Schmeidel2019]</a> T. Schhmiedel, et al, (2019). Topic Modeling as a Strat- egy of Inquiry in Organizational Research: A Tutorial With an Application Example on Organizational Culture. Organizational Re- search Methods 22(4):941- 963, https://bit.ly/2WapzTu.
+<a id="Porter1979">[Porter1979]</a> M. E. Porter (1979). How competitive forces shape strategy. Harvard Business Review, https://t.ly/YMGU.
+
+<a id="Schmeidel2019">[Schmeidel2019]</a> T. Schhmiedel, et al, (2019). Topic Modeling as a Strat- egy of Inquiry in Organizational Research: A Tutorial With an Application Example on Organizational Culture. Organizational Research Methods 22(4):941- 963, https://bit.ly/2WapzTu.
+
+<a id="Teece1997">[Teece1997]</a> D. J. Teece, G. Pisano, A. Shuen (1997). Dynamic capabilities and strategic management.  Strategic Management Journal 18(7)509-533, August 1997, https://bityl.co/51WI.
 
 <a id="Torabi2019">[Torabi2019]</a> Torabi A, F., & Taboada, M. (2019). Big Data and quality data for fake news and misinformation detection. Big Data & Society, January–June 2019: 1–14, https://bit.ly/3cuXsUH.
