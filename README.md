@@ -11,6 +11,14 @@
 
 ## Abstract/Executive Summary.
 
-A novel combination of Natural-Language Processing (NLP) and Machine-Learning (ML) techniques provides some ability to demonstrate between known-theme documents a corpus comprised of articles from a leading research journal. Updating [previous work](https://github.com/hamlett-neil-ur/BizStratTopicAnalysis/blob/master/201229_README_old.md)
+
+
+<video width="320" align = "right" controls>
+  <source "./graphics/201012_Hamlett_INFORMS_Annl_Mtg.mp4" type="video/mp4">
+</video>
+
+A novel combination of Natural-Language Processing (NLP) and Machine-Learning (ML) techniques provides some ability to demonstrate between known-theme documents a corpus comprised of articles from a leading research journal. Updating [previous work](https://github.com/hamlett-neil-ur/BizStratTopicAnalysis/blob/master/201229_README_old.md), this describes
+
+
 
 ## Motivation and Objectives.
