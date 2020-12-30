@@ -11,9 +11,9 @@
 
 ## Abstract/Executive Summary.
 
-[![Alt text](./graphics/201011 INFORMS Ann'l Mtg — CoverChart.png)](https://youtu.be/IbX-P0gk4VM)
+[![2020 INFORMS Ann'l Meeting](https://i9.ytimg.com/vi/DRO1xVMoScE/mqdefault.jpg?time=1609342500000&sqp=CKS8sv8F&rs=AOn4CLDUB-IgMk5Goa9G1mSJptb9sIofaA)](https://youtu.be/DRO1xVMoScE "2020 INFORMS Ann'l Meeting")
 
-A novel combination of Natural-Language Processing (NLP) and Machine-Learning (ML) techniques provides some ability to demonstrate between known-theme documents a corpus comprised of articles from a leading research journal. A presentation to the [2020 INFORMS Annual Meeting](http://meetings2.informs.org/wordpress/annual2020/) updates [previous work](https://github.com/hamlett-neil-ur/BizStratTopicAnalysis/blob/master/201229_README_old.md). The stage is set to extend results
+A novel combination of Natural-Language Processing (NLP) and Machine-Learning (ML) techniques provides some ability to demonstrate between known-theme documents a corpus comprised of articles from a leading research journal. A presentation to the [2020 INFORMS Annual Meeting](http://meetings2.informs.org/wordpress/annual2020/) updates [previous work](https://github.com/hamlett-neil-ur/BizStratTopicAnalysis/blob/master/201229_README_old.md). The stage is set to extend results through expansion of the corpus to include other journals, sharpening the annotation, and extending the ML approach to include
 
 
 
