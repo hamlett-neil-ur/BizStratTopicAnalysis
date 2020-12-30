@@ -67,7 +67,9 @@ Finally, management consultant P. Drucker observed during the early 1990s that i
 
 <img width="500" align = "right" src="./graphics/201011 LDA epistemic structure.svg.png" alt="High-level thematic structure">
 
-The figure to the right depicts the <a id="epistemic structure">epistemic structure</a> of the problem. 
+The figure to the right depicts the <a id="epistemic structure">epistemic structure</a> of the problem. First, it distinguishes between *syntactic* and *semantic* facets of the corpus. Syntax pertains to vocabulary and grammar. Semantics relate to the meaning of a document. Themes, the principal focus, reside in the syntax realm.
+
+Now, NLP and ML methods operate preponderantly in the realm of syntax. <a href="#Blei2003">[Blei2003]</a>, the first description of the principal method applied in the present work, emphasizes this distinction:  “*...we make no epistemological claims regarding these latent variables beyond their utility in representing probability distributions on sets of words*”.
 
 
 
