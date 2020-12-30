@@ -19,7 +19,7 @@ December 30, 2020
   <img width="600" align = "right" src="./graphics/201011 INFORMS Ann'l Mtg — CoverChart.png" alt="2020 INFORMS Ann'l Meeting">
   </a>
 
-A novel combination of Natural-Language Processing (NLP) and Machine-Learning (ML) techniques provides some ability to discriminate between known-theme documents a corpus comprised of articles from a leading research journal. A presentation to the [2020 INFORMS Annual Meeting](http://meetings2.informs.org/wordpress/annual2020/) updates previous work <a href="#Hamlett2020a">[Hamlet2020a]</a>. The stage is set to extend results through expansion of the corpus to include other journals, sharpening the annotation, and extending the ML approach to account for users' beliefs about the appropriateness of thematic groupings.
+A novel combination of Natural-Language Processing (NLP) and Machine-Learning (ML) techniques provides some ability to discriminate between known-theme documents in a corpus comprised of articles from a leading research journal. A presentation to the [2020 INFORMS Annual Meeting](http://meetings2.informs.org/wordpress/annual2020/) (<a href="#Hamlett2020b">[Hamlet2020b]</a>, <a href="#Hamlett2020c">[Hamlet2020c]</a>) updates previous work <a href="#Hamlett2020a">[Hamlet2020a]</a>. The stage is set to extend results through expansion of the corpus to include other journals, sharpening the annotation, and extending the ML approach to account for users' beliefs about the appropriateness of thematic groupings.
 
 A corpus of more than 3,000 full-text journal articles spanning 40 years provides the corpus. These articles are drawn from a single journal, [*Strategic Management Journal*](https://onlinelibrary.wiley.com/journal/10970266). The corpus contains more than 27 million words. Training a combined NLP-ML method using the corpus groups included documents into clusters. Applying the resulting model to 22 known-theme documents — corresponding to five prominent business-strategy themes — "calibrates" the clusters. This allows consideration of whether other documents in the corpus correspond to a-priori-defined themes.
 
@@ -35,7 +35,7 @@ Key words represent the most common method for searching literature. Many public
 
 ## Motivation and Objective.
 
-Employment of *all-available* information to find documents that are thematically similar to given ones comprises the objective. Conventional keyword searches employ only metadata about documents in a corpus. The combined NLP-ML approach employs the full document text. Determination by researchers about appropriateness of thematic associations provides another information input.
+Employment of *all-available* information to find documents that are thematically similar to given ones comprises the objective. Conventional keyword searches employ only metadata about documents in a corpus. The combined NLP-ML approach demonstrated here employs the full document text. Researchers' determiniations of the appropriateness of thematic associations provides another information input.
 
 <img width="600" align = "right" src="./graphics/201011 NLP-ML UseCaseDiagram.png" alt="Thematic-parsing use case">
 
@@ -71,7 +71,9 @@ The figure to the right depicts the <a id="epistemic_structure">epistemic struct
 
 Now, NLP and ML methods operate preponderantly in the realm of syntax. <a href="#Blei2003">[Blei2003]</a>, the first description of the principal method applied in the present work, emphasizes this distinction:  “*...we make no epistemological claims regarding these latent variables beyond their utility in representing probability distributions on sets of words*”. This is one of the principle challenges of NLP.
 
-The <a href="epistemic_structure">epistemic structure</a> graphic above also depicts the immutable characteristics of the corpus. Specifically, documents are comprised of *terms*. Their composition is presumed to be motivated by a *topic*. Topics here characterize "distributions on sets of words".
+This observation motivates activities ⓸ and ⓹ in the <a href="#use_case">use-case view</a> above. The same vernacular assumes different meanings in distinct contexts. To the extent that NLP and ML methods are constrained to the syntactic realm, they provide only limited abilities to resolve these ambiguities. Association by researchers of documents to themes can discriminate between document themes. Obviously, the use of human labor suffers from scalability limitations. The <a href="#use_case">use case</a> here targets specialized, nonrecurring work.
+
+The <a href="epistemic_structure">epistemic structure</a> graphic above also depicts the immutable characteristics of the corpus. Specifically, *documents* are comprised of *terms*. Their composition is presumed to be motivated by a *topic*. Topics here characterize "distributions on sets of words".
 
 Finally, the <a href="#epistemic_structure">epistemic structure</a> figure presents an attribute "*Latent Class*". Documents are characterized by blends of *topics*. Latent classes are statistical groupings of documents based on these topical blends. Activity ⓷ in the <a href="#use_case">use-case view</a> above involves considering documents grouped by latent class.
 
@@ -113,6 +115,8 @@ The <a href="#epistemic_structure">epistemic-structure figure</a> above also ref
 <a id="Hamlett2020a">[Hamlett2020a]</a> N. A. Hamlett (2020). A natural-language-processing exploration of the thematic landscape of the field of Business Strategy, 1980-2020. April 2020, https://bityl.co/51Vf.  
 
 <a id="Hamlett2020b">[Hamlett2020b]</a> N. A. Hamlett (2020).  A Natural-Language Processing Study Of Business-strategy Literature, 1980-2020. INFORMS Annual Meeting, November 8-11, 2020, https://bityl.co/51Wn.  
+
+<a id="Hamlett2020c">[Hamlett2020c]</a> N. A. Hamlett (2020).  A Natural-Language Processing Study Of Business-strategy Literature, 1980-2020. INFORMS Annual Meeting, November 8-11, 2020, https://youtu.be/DRO1xVMoScE.  
 
 <a id="Liu2019">[Liu2019]</a> Y. Liu, F. Mai, C. MacDonald (2019). A Big-Data Approach to Understanding the Thematic Landscape of the Field of Business Ethics, 1982– 2016. J Bus Ethics 160:127– 150, https://t.ly/WnvH.
 
