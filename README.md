@@ -24,9 +24,9 @@ A corpus of more than 3,000 full-text journal articles spanning 40 years provide
 
 ## Executive Summary.
 
-Finding other documents that correspond to a document of interest is a common challenge in research. Academic researchers seek support for their theses. Ascertaining originality is a common challenge in intellectual property.
+Finding other documents that correspond to a document of interest is a common challenge in research. Academic researchers seek support for their theses. Determining originality is a common challenge in intellectual property.
 
-
+Key words represent the most common method for searching literature. Many publications explicitly provide keyword attributes as metadata. Searching 
 
 
 
