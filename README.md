@@ -34,3 +34,10 @@ Key words represent the most common method for searching literature. Many public
 
 
 ## Motivation and Objective.
+
+
+
+## References.
+<a id="Antons2019">[Antons2019]</a> Antons, D., Joshi, A. M., Salge, T. O. (2019). Content, Contribution, and Knowl- edge Consumption: Uncov- ering Hidden Topic Structure and Rhetorical Signals in Scientific Texts. Journal of Management, 45(7). 3035– 3076. https://bit.ly/3cu9jT3.
+
+<a id="Blei2003">[Blei2003]</a> David M. Blei, Andrew Y. Ng, Michael I. Jordan (2003). Latent Dirichlet Allocation. Journal of Machine Learning Research, 3(Jan):993-1022, https://t.ly/Moy3.
