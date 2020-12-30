@@ -81,7 +81,7 @@ The discussion now turns to the technical approach. The combined NLP-ML is first
 
 ### NLP-ML modeling.
 
-The <a href="epistemic_structure">epistemic-structure figure</a> above also refers to the NLP and ML approaches. First, *Latent Dirichlet Allocation* (LDA) is applied to the annotated corpus. Described in detail in <a href="#Blei2003">[Blei2003]</a>, LDA is a graphical approach that infers conditional-probabilistic associations between topics, terms, and documents. Topics are *latent* variables
+The <a href="epistemic_structure">epistemic-structure figure</a> above also refers to the NLP and ML approaches. First, *Latent Dirichlet Allocation* (LDA) is applied to the annotated corpus. Described in detail in <a href="#Blei2003">[Blei2003]</a>, LDA is a graphical approach that infers conditional-probabilistic associations between topics, terms, and documents. Topics are *latent* variables (e.g., <a href="#Loehlin2004">[Loehlin2004]</a>). A *Dirichlet* distribution is assumed LDA estimation. Finally, the technique *allocates* probabilities that a topic is contained in a specified document.
 
 
 ### Technology and tools.
@@ -116,7 +116,7 @@ The <a href="epistemic_structure">epistemic-structure figure</a> above also refe
 
 <a id="Liu2019">[Liu2019]</a> Y. Liu, F. Mai, C. MacDonald (2019). A Big-Data Approach to Understanding the Thematic Landscape of the Field of Business Ethics, 1982– 2016. J Bus Ethics 160:127– 150, https://t.ly/WnvH.
 
-<a id="Loehlin2004">[Loehlin2004]</a> J. C. Loehlin (2004). Latent Variable Models, fourth edition. Mawhah, NJ: Lawrence Erlbaum Associates, Inc., Taylor and Francis, 2004 https://amz.run/4AuG. 
+<a id="Loehlin2004">[Loehlin2004]</a> J. C. Loehlin (2004). Latent Variable Models, fourth edition. Mawhah, NJ: Lawrence Erlbaum Associates, Inc., Taylor and Francis, 2004 https://amz.run/4AuG.
 
 <a id="McLachlan2000">[McLachlan2000]</a> G. McLachlan, D. Peel (2000). Finite Mixture Models. New York: Wiley, 2000.
 
