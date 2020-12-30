@@ -35,9 +35,9 @@ Key words represent the most common method for searching literature. Many public
 
 ## Motivation and Objective.
 
-Employment of *all-available* information to find documents that are thematically similar to given ones comprises the objective. Conventional keyword searches employ only metadata about documents in a corpus. The combined NLP-ML approach employs the full document text.
+Employment of *all-available* information to find documents that are thematically similar to given ones comprises the objective. Conventional keyword searches employ only metadata about documents in a corpus. The combined NLP-ML approach employs the full document text. Determination by researchers about appropriateness of thematic associations provides another source.
 
-<img width="600" align = "right" src="./graphics/201011 Similar-Doc Query use Case.png" alt="2020 INFORMS Ann'l Meeting">
+<img width="600" align = "right" src="./graphics/201011 NLP-ML UseCaseDiagram.png" alt="2020 INFORMS Ann'l Meeting">
 
 The use-case view to the right depicts the functional context within which the combined NLP-ML approach might be employed. The work here demonstrates activities ⓵, ⓶, and ⓷.
 
