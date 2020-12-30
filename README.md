@@ -73,7 +73,7 @@ Now, NLP and ML methods operate preponderantly in the realm of syntax. <a href="
 
 The <a href="epistemic_structure">epistemic structure</a> graphic above also depicts the immutable characteristics of the corpus. Specifically, documents are comprised of *terms*. Their composition is presumed to be motivated by a *topic*. Topics here characterize "distributions on sets of words".
 
-Finally, the <a href="epistemic_structure">epistemic structure</a> figure presents an attribute "*Latent Class*". Documents are characterized by blends of *topics*. Latent classes are statistical groupings of documents based on these topical blends. Activity ⓷ in the <a href="use_case">use-case view</a> above involves considering documents grouped by latent class.
+Finally, the <a href="#epistemic_structure">epistemic structure</a> figure presents an attribute "*Latent Class*". Documents are characterized by blends of *topics*. Latent classes are statistical groupings of documents based on these topical blends. Activity ⓷ in the <a href="#use_case">use-case view</a> above involves considering documents grouped by latent class.
 
 ## Technical Approach.
 
@@ -81,7 +81,7 @@ The discussion now turns to the technical approach. The combined NLP-ML is first
 
 ### NLP-ML modeling.
 
-The <a href="epistemic_structure">epistemic-structure figure</a> above also refers to the NLP and ML approaches. First, *Latent Dirichlet Allocation* (LDA) is applied to the annotated corpus. Described in detail in <a href="#Blei2003">[Blei2003]</a>, LDA is a graphical approach that infers conditional-probabilistic associations between topics, terms, and documents. Topics are *latent* variables (e.g., <a href="#Loehlin2004">[Loehlin2004]</a>). A *Dirichlet* distribution is assumed LDA estimation. Finally, the technique *allocates* probabilities that a topic is contained in a specified document.
+The <a href="#epistemic_structure">epistemic-structure figure</a> above also refers to the NLP and ML approaches. First, *Latent Dirichlet Allocation* (LDA) is applied to the annotated corpus. Described in detail in <a href="#Blei2003">[Blei2003]</a>, LDA is a graphical approach that infers conditional-probabilistic associations between topics, terms, and documents. Topics are *latent* variables (e.g., <a href="#Loehlin2004">[Loehlin2004]</a>). A *Dirichlet* distribution is assumed LDA estimation. Finally, the technique *allocates* probabilities that a topic is contained in a specified document.
 
 
 ### Technology and tools.
