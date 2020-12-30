@@ -75,6 +75,20 @@ The <a href="epistemic_structure">epistemic structure</a> graphic above also dep
 
 Finally, the <a href="epistemic_structure">epistemic structure</a> figure presents an attribute "*Latent Class*". Documents are characterized by blends of *topics*. Latent classes are statistical groupings of documents based on these topical blends. Activity ⓷ in the <a href="use_case">use-case view</a> above involves considering documents grouped by latent class.
 
+## Technical Approach.
+
+The discussion now turns to the technical approach. The combined NLP-ML is first described. The discussion next turns to the tools and technologies.
+
+### NLP-ML modeling.
+
+The <a href="epistemic_structure">epistemic-structure figure</a> above also refers to the NLP and ML approaches. First, *Latent Dirichlet Allocation* (LDA) is applied to the annotated corpus. Described in detail in <a href="#Blei2003">[Blei2003]</a>, LDA is a graphical approach that infers conditional-probabilistic associations between topics, terms, and documents. Topics are *latent* variables
+
+
+### Technology and tools.
+
+<img width="600" align = "right" src="./graphics/200407 Processing Stream Tech Composition.svg" alt="High-level thematic structure">
+
+
 
 
 ## References.
@@ -101,6 +115,8 @@ Finally, the <a href="epistemic_structure">epistemic structure</a> figure presen
 <a id="Hamlett2020b">[Hamlett2020b]</a> N. A. Hamlett (2020).  A Natural-Language Processing Study Of Business-strategy Literature, 1980-2020. INFORMS Annual Meeting, November 8-11, 2020, https://bityl.co/51Wn.  
 
 <a id="Liu2019">[Liu2019]</a> Y. Liu, F. Mai, C. MacDonald (2019). A Big-Data Approach to Understanding the Thematic Landscape of the Field of Business Ethics, 1982– 2016. J Bus Ethics 160:127– 150, https://t.ly/WnvH.
+
+<a id="Loehlin2004">[Loehlin2004]</a> J. C. Loehlin (2004). Latent Variable Models, fourth edition. Mawhah, NJ: Lawrence Erlbaum Associates, Inc., Taylor and Francis, 2004 https://amz.run/4AuG. 
 
 <a id="McLachlan2000">[McLachlan2000]</a> G. McLachlan, D. Peel (2000). Finite Mixture Models. New York: Wiley, 2000.
 
