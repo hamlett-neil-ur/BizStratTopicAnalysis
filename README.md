@@ -39,16 +39,18 @@ Employment of *all-available* information to find documents that are thematicall
 
 <img width="600" align = "right" src="./graphics/201011 NLP-ML UseCaseDiagram.png" alt="2020 INFORMS Ann'l Meeting">
 
-The use-case view to the right depicts the functional context within which the combined NLP-ML approach might be employed. The work here demonstrates activities ⓵, ⓶, and ⓷. Activity ⓵ employs
+The use-case view to the right depicts the functional context within which the combined NLP-ML approach might be employed. The work here demonstrates activities ⓵, ⓶, and ⓷. Activity ⓵ employs the combined NLP-ML approach described below. The result is a statistically-derived characterization of the corpus and its included documents. An actor referred to here as "Corpus Manager" accomplishes this function using a technology component labeled as "Document topic-classification model".
+
+Activities ⓶ and ⓷ are researcher-centric. 
 
 
 
 ## References.
-<a id="Antons2019">[Antons2019]</a> Antons, D., Joshi, A. M., Salge, T. O. (2019). Content, Contribution, and Knowl- edge Consumption: Uncov- ering Hidden Topic Structure and Rhetorical Signals in Scientific Texts. Journal of Management, 45(7). 3035– 3076. https://bit.ly/3cu9jT3.
+<a id="Antons2019">[Antons2019]</a> Antons, D., Joshi, A. M., Salge, T. O. (2019). Content, Contribution, and Knowledge Consumption: Uncovering Hidden Topic Structure and Rhetorical Signals in Scientific Texts. Journal of Management, 45(7). 3035– 3076. https://bit.ly/3cu9jT3.
 
 <a id="Blei2003">[Blei2003]</a> David M. Blei, Andrew Y. Ng, Michael I. Jordan (2003). Latent Dirichlet Allocation. Journal of Machine Learning Research, 3(Jan):993-1022, https://t.ly/Moy3.
 
-<a id="Blei2009">[Blei2009]</a> D. M. Blei, J. D. Lafferty, (2009). Topic Models. Text Mining: Classification, Clus- tering and Applications, A. N. Srivastava, M. Sa- hami, eds, Boca Raton, Chapman & Hall/CRC, https://amzn.to/3dmOjNR.
+<a id="Blei2009">[Blei2009]</a> D. M. Blei, J. D. Lafferty, (2009). Topic Models. Text Mining: Classification, Clustering and Applications, A. N. Srivastava, M. Sa- hami, eds, Boca Raton, Chapman & Hall/CRC, https://amzn.to/3dmOjNR.
 
 <a id="Brooks2018">[Brooks2018]</a> G. Brookes, T. McEnery (2019). The utility of topic modelling for discourse studies: A critical evaluation. Discourse Studies, 21(1):3-21, https://t.ly/Tle9.
 
