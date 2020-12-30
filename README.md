@@ -13,7 +13,7 @@
 December 30, 2020
 </p>
 
-## Abstract
+## Abstract.
 
 <a  href="https://youtu.be/DRO1xVMoScE" target="_blank">
   <img width="600" align = "right" src="./graphics/201011 INFORMS Ann'l Mtg — CoverChart.png" alt="2020 INFORMS Ann'l Meeting">
@@ -37,13 +37,21 @@ Key words represent the most common method for searching literature. Many public
 
 Employment of *all-available* information to find documents that are thematically similar to given ones comprises the objective. Conventional keyword searches employ only metadata about documents in a corpus. The combined NLP-ML approach employs the full document text. Determination by researchers about appropriateness of thematic associations provides another information input.
 
-<img width="600" align = "right" src="./graphics/201011 NLP-ML UseCaseDiagram.png" alt="2020 INFORMS Ann'l Meeting">
+<img width="600" align = "right" src="./graphics/201011 NLP-ML UseCaseDiagram.png" alt="Thematic-parsing use case>
 
 The use-case view to the right depicts the functional context within which the combined NLP-ML approach might be employed. The work here demonstrates activities ⓵, ⓶, and ⓷. Activity ⓵ employs the combined NLP-ML approach described below. The result is a statistically-derived characterization of the corpus and its included documents. These characteristics are immutable properties of the corpus and its documents. An actor referred to here as "Corpus Manager" accomplishes this function using a technology component labeled as "Document topic-classification model".
 
 Activities ⓶ and ⓷ are researcher-centric. The researcher begins with one or more documents of interest in activity ⓶. Activity ⓷ invokes the model to identify documents similar to those of interest. These activities achieve the desired effect. Thematically similar documents are identified using all the full text of each.
 
-Activities ⓸ and ⓹ are realized in follow-on work. These activities incorporate researcher beliefs about the appropriateness of thematic associations estimated by the model. This involves nonlinear modeling employing the immutable attributes computed in activity ⓵,
+Activities ⓸ and ⓹ are realized in follow-on work. These activities incorporate researcher beliefs about the appropriateness of thematic associations estimated by the model. This involves nonlinear modeling employing the immutable attributes computed in activity ⓵.
+
+## Information Structure of the Problem.
+
+### Prominent business-strategy themes.
+
+<img width="600" align = "right" src="./graphics/201011 Thematic Structure.svg.png" alt="High-level thematic structure">
+
+The figure to the right contains a high-level summary of selected prominent themes in the business-strategy literature. This depiction is by no means comprehensive. It lists those considered in this work. It also indicates how they are interrelated. 
 
 
 
