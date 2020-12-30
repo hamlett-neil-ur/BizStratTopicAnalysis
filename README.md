@@ -39,7 +39,7 @@ Employment of *all-available* information to find documents that are thematicall
 
 <img width="600" align = "right" src="./graphics/201011 NLP-ML UseCaseDiagram.png" alt="Thematic-parsing use case">
 
-The <a id = "use case">use-case</a> view to the right depicts the functional context within which the combined NLP-ML approach might be employed. The work here demonstrates activities ⓵, ⓶, and ⓷. Activity ⓵ employs the combined NLP-ML approach described below. The result is a statistically-derived characterization of the corpus and its included documents. These characteristics are immutable properties of the corpus and its documents. An actor referred to here as "Corpus Manager" accomplishes this function using a technology component labeled as "Document topic-classification model".
+The <a id = "use_case">use-case</a> view to the right depicts the functional context within which the combined NLP-ML approach might be employed. The work here demonstrates activities ⓵, ⓶, and ⓷. Activity ⓵ employs the combined NLP-ML approach described below. The result is a statistically-derived characterization of the corpus and its included documents. These characteristics are immutable properties of the corpus and its documents. An actor referred to here as "Corpus Manager" accomplishes this function using a technology component labeled as "Document topic-classification model".
 
 Activities ⓶ and ⓷ are researcher-centric. The researcher begins with one or more documents of interest in activity ⓶. Activity ⓷ invokes the model to identify documents similar to those of interest. These activities achieve the desired effect. Thematically similar documents are identified using all the full text of each.
 
@@ -67,9 +67,13 @@ Finally, management consultant P. Drucker observed during the early 1990s that i
 
 <img width="500" align = "right" src="./graphics/201011 LDA epistemic structure.svg.png" alt="High-level thematic structure">
 
-The figure to the right depicts the <a id="epistemic structure">epistemic structure</a> of the problem. First, it distinguishes between *syntactic* and *semantic* facets of the corpus. Syntax pertains to vocabulary and grammar. Semantics relate to the meaning of a document. Themes, the principal focus, reside in the syntax realm.
+The figure to the right depicts the <a id="epistemic_structure">epistemic structure</a> of the problem. First, it distinguishes between *syntactic* and *semantic* facets of the corpus. Syntax pertains to vocabulary and grammar. Semantics relate to the meaning of a document. Themes, the principal focus, reside in the syntax realm.
 
-Now, NLP and ML methods operate preponderantly in the realm of syntax. <a href="#Blei2003">[Blei2003]</a>, the first description of the principal method applied in the present work, emphasizes this distinction:  “*...we make no epistemological claims regarding these latent variables beyond their utility in representing probability distributions on sets of words*”.
+Now, NLP and ML methods operate preponderantly in the realm of syntax. <a href="#Blei2003">[Blei2003]</a>, the first description of the principal method applied in the present work, emphasizes this distinction:  “*...we make no epistemological claims regarding these latent variables beyond their utility in representing probability distributions on sets of words*”. This is one of the principle challenges of NLP.
+
+The <a href="epistemic_structure">epistemic structure</a> graphic above also depicts the immutable characteristics of the corpus. Specifically, documents are comprised of *terms*. Their composition is presumed to be motivated by a *topic*. Topics here characterize "distributions on sets of words".
+
+Finally, the <a href="epistemic_structure">epistemic structure</a> figure presents an attribute "*Latent Class*". Documents are characterized by blends of *topics*. Latent classes are statistical groupings of documents based on these topical blends. Activity ⓷ in the <a href="use_case">use-case view</a> above involves considering documents grouped by latent class.
 
 
 
