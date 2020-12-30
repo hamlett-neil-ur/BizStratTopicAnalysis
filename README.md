@@ -47,11 +47,19 @@ Activities ⓸ and ⓹ are realized in follow-on work. These activities incorpor
 
 ## Information Structure of the Problem.
 
+Data-analytics projects such as this benefit from an understanding of the source of the data under investigation <a href="#Coveney2016">[Coveney2016]</a>. The following discussion considers two facets. First, the structure of prominent business-strategy themes is considered. Next, the epistemic structure of the data is discussed. Insight into these facets influences the details of the approach.
+
 ### Prominent business-strategy themes.
 
 <img width="600" align = "right" src="./graphics/201011 Thematic Structure.svg.png" alt="High-level thematic structure">
 
-The figure to the right contains a high-level summary of selected prominent themes in the business-strategy literature. This depiction is by no means comprehensive. It lists those considered in this work. It also indicates how they are interrelated. 
+The figure to the right contains a high-level graphical summary of selected prominent themes in the business-strategy literature. This depiction is by no means comprehensive. It lists those considered in this work. It also indicates how they are interrelated.
+
+Business strategy focused substantially on economic efficiency beginning in the late 19th Century and continuing through about the 1970s [Burton1980], <a href="#Stewart2009">[Stewart2009]</a>. Operational efficiency was presumed to be the key determinant of marketplace success.
+
+More sophisticated points of view began to emerge in the 1970s. M. Porter observed that offering distinction can beat efficiency-based price advantages <a href="#Porter1979">[Porter1979]</a>. Porter's Competitive-Advantage framework explained things in terms of marketplace positioning and industry structure. Approximately fifteen years later, C. Christensen, one of Porter's students, explained how price advantage can beat other distinctions <a href="#Christensen1995">[Christensen1995]</a>, <a href="#Christensen2015">[Christensen2015]</a>. This later framework became popularly known as "Disruptive Innovation".
+
+An organizational-competency perspective began to emerge during the late 1990s.
 
 
 
@@ -64,9 +72,15 @@ The figure to the right contains a high-level summary of selected prominent them
 
 <a id="Brooks2018">[Brooks2018]</a> G. Brookes, T. McEnery (2019). The utility of topic modelling for discourse studies: A critical evaluation. Discourse Studies, 21(1):3-21, https://t.ly/Tle9.
 
-<a id="Christensen1995">[Christensen1995]</a> C. M. Christensen, J. L. Bower (1995). Disruptive technologies: Catching the wave. Harvard Business Review, https://bityl.co/51Vz.
+<a id="Christensen1995">[Christensen1995]</a> C. M. Christensen, J. L. Bower (1995). Disruptive technologies: Catching the wave. Harvard Business Review, January-February 1995 https://bityl.co/51Vz.
+
+<a id="Christensen2015">[Christensen2015]</a> C. M. Christensen, M. E. Raynor, R. McDonald (2015). What Is Disruptive Innovation? Harvard Business Review, December 2015 https://bityl.co/51Xl.
+
+<a id="Coveney2016">[Coveney2016]</a> P. V. Coveney, E. R. Dougherty and R. R. Highfield (2016). Big data need big theory too. Philosophical Transactions of the Royal Statistical Society A, https://bityl.co/51Xy.
 
 <a id="Drucker1993">[Drucker1993]</a> P. F. Drucker (1993). Post-Capitalist Society, Philadelphia, PA: Routledge, https://amzn.to/3dpLbAK.
+
+<a id="Hamlett2019">[Hamlett2019]</a> N. A. Hamlett (2019). Competitive advantage based on information. Working paper, https://bit.ly/3fQ1XLM.
 
 <a id="Hamlett2020a">[Hamlett2020a]</a> N. A. Hamlett (2020). A natural-language-processing exploration of the thematic landscape of the field of Business Strategy, 1980-2020. April 2020, https://bityl.co/51Vf.  
 
@@ -76,7 +90,11 @@ The figure to the right contains a high-level summary of selected prominent them
 
 <a id="Porter1979">[Porter1979]</a> M. E. Porter (1979). How competitive forces shape strategy. Harvard Business Review, https://t.ly/YMGU.
 
+<a id="Porter1985">[Porter1985]</a> M. E. Porter, V. E. Millar (1985). How information gives you competitive advantage. Harvard Business Review, https://t.ly/BVvS.
+
 <a id="Schmeidel2019">[Schmeidel2019]</a> T. Schhmiedel, et al, (2019). Topic Modeling as a Strat- egy of Inquiry in Organizational Research: A Tutorial With an Application Example on Organizational Culture. Organizational Research Methods 22(4):941- 963, https://bit.ly/2WapzTu.
+
+<a id="Stewart2009">[Stewart2009]</a> M. Stewart (2009). The Management Myth. New York: W. W. Horton, 2009, https://amz.run/4Atr.
 
 <a id="Teece1997">[Teece1997]</a> D. J. Teece, G. Pisano, A. Shuen (1997). Dynamic capabilities and strategic management.  Strategic Management Journal 18(7)509-533, August 1997, https://bityl.co/51WI.
 
