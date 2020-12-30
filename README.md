@@ -57,25 +57,25 @@ The figure to the right contains a high-level graphical summary of selected prom
 
 Business strategy focused substantially on economic efficiency beginning in the late 19th Century and continuing through about the 1970s [Burton1980], <a href="#Stewart2009">[Stewart2009]</a>. Operational efficiency was presumed to be the key determinant of marketplace success.
 
-More sophisticated points of view began to emerge in the 1970s. M. Porter observed that offering distinction can beat efficiency-based price advantages <a href="#Porter1979">[Porter1979]</a>. Porter's Competitive-Advantage framework explained things in terms of marketplace positioning and industry structure. Approximately fifteen years later, C. Christensen, one of Porter's students, explained how price advantage can beat other distinctions <a href="#Christensen1995">[Christensen1995]</a>, <a href="#Christensen2015">[Christensen2015]</a>. This later framework became popularly known as "Disruptive Innovation".
+More sophisticated points of view began to emerge in the 1970s. M. Porter observed that offering distinction can beat efficiency-based price advantages <a href="#Porter1979">[Porter1979]</a>. Porter's Competitive-Advantage framework explained things in terms of marketplace positioning, reesources, and industry structure. Approximately fifteen years later, C. Christensen, one of Porter's students, explained how price advantage can beat other distinctions <a href="#Christensen1995">[Christensen1995]</a>, <a href="#Christensen2015">[Christensen2015]</a>. This later framework became popularly known as "Disruptive Innovation".
 
-An organizational-competency perspective began to emerge during the late 1990s. D. Teece demonstrated that organizational factors other than resources and marketplace positioning explain sustained marketplace advantage <a href="#Teece1997">[Teece1997]</a>, <a href="#Teece2009">[Teece2009]</a>. This framework is commonly referred to as "Dynamic Capabilities".
+An organizational-competency perspective began to emerge during the late 1990s. D. Teece demonstrated that organizational factors other than resources and marketplace positioning explain sustained marketplace advantage <a href="#Teece1997">[Teece1997]</a>, <a href="#Teece2009">[Teece2009]</a>. Teece's framework is commonly known as "Dynamic Capabilities".
 
-Finally, management consultant P. Drucker observed during the early 1990s that information and knowledge had long contributed more to financial results than real and financial assets <a href="#Drucker1993">[Drucker1993]</a>. Porter corroborated this perspective in the mid 1980's <a href="#Porter1985">[Porter1985]</a>. <a href="#Hamlett2019">[Hamlett2019]</a> attempts an economic-theory explanation for this phenomenon.
+Finally, management consultant P. Drucker observed during the early 1990s that information and knowledge had long contributed more to financial results than real and financial assets <a href="#Drucker1993">[Drucker1993]</a>. Porter corroborated this perspective in the mid 1980's <a href="#Porter1985">[Porter1985]</a>. <a href="#Hamlett2019">[Hamlett2019]</a> attempts an  explanation for this phenomenon based on principles of information economics.
 
 ### Epistemic structure.
 
 <img width="500" align = "right" src="./graphics/201011 LDA epistemic structure.svg.png" alt="High-level thematic structure">
 
-The figure to the right depicts the <a id="epistemic_structure">epistemic structure</a> of the problem. First, it distinguishes between *syntactic* and *semantic* facets of the corpus. Syntax pertains to vocabulary and grammar. Semantics relate to the meaning of a document. Themes, the principal focus, reside in the syntax realm.
+The figure to the right depicts the <a id="epistemic_structure">epistemic structure</a> of the problem. First, it distinguishes between *syntactic* and *semantic* facets of the corpus. Syntax pertains to vocabulary and grammar. Semantics relate to the meaning of a document. Themes, the principal focus here, reside in the semantic realm.
 
-Now, NLP and ML methods operate preponderantly in the realm of syntax. <a href="#Blei2003">[Blei2003]</a>, the first description of the principal method applied in the present work, emphasizes this distinction:  “*...we make no epistemological claims regarding these latent variables beyond their utility in representing probability distributions on sets of words*”. This is one of the principle challenges of NLP.
+Now, NLP and ML methods operate preponderantly in the syntactic realm. <a href="#Blei2003">[Blei2003]</a>, the first description of the principal method applied in the present work, emphasizes this distinction:  “*...we make no epistemological claims regarding these latent variables beyond their utility in representing probability distributions on sets of words*”. Using syntactic observations to get at semantics is one of the principle challenges of NLP.
 
-This observation motivates activities ⓸ and ⓹ in the <a href="#use_case">use-case view</a> above. The same vernacular assumes different meanings in distinct contexts. To the extent that NLP and ML methods are constrained to the syntactic realm, they provide only limited abilities to resolve these ambiguities. Association by researchers of documents to themes can discriminate between document themes. Obviously, the use of human labor suffers from scalability limitations. The <a href="#use_case">use case</a> here targets specialized, nonrecurring work.
+This observation motivates activities ⓸ and ⓹ in the <a href="#use_case">use-case model</a> above. The same vernacular assumes distinct meanings in different contexts. To the extent that NLP and ML methods are constrained to the syntactic realm, they provide only limited abilities to resolve semantic ambiguities. Association by researchers of documents to themes can help. Obviously, the use of human labor imposes scalability limitations. The <a href="#use_case">use case</a> here targets specialized, nonrecurring work.
 
-The <a href="epistemic_structure">epistemic structure</a> graphic above also depicts the immutable characteristics of the corpus. Specifically, *documents* are comprised of *terms*. Their composition is presumed to be motivated by a *topic*. Topics here characterize "distributions on sets of words".
+The <a href="epistemic_structure">epistemic structure</a> graphic above also depicts the immutable characteristics of the corpus. Specifically, *documents* are comprised of *terms*. Their composition is presumed to be motivated by *topics*. Topics here characterize "distributions on sets of words".
 
-Finally, the <a href="#epistemic_structure">epistemic structure</a> figure presents an attribute "*Latent Class*". Documents are characterized by blends of *topics*. Latent classes are statistical groupings of documents based on these topical blends. Activity ⓷ in the <a href="#use_case">use-case view</a> above involves considering documents grouped by latent class.
+Finally, the <a href="#epistemic_structure">epistemic structure</a> figure contains a "*latent-class*" attribute. Documents are characterized by blends of *topics*. Latent classes are statistical groupings of documents based on these topical blends. Activity ⓷ in the <a href="#use_case">use-case view</a> above involves considering documents grouped by latent class.
 
 ## Technical Approach.
 
@@ -86,6 +86,8 @@ The discussion next turns to the tools and technologies. This latter section tak
 ### NLP-ML modeling.
 
 The <a href="#epistemic_structure">epistemic-structure figure</a> above also refers to the NLP and ML approaches. First, *Latent Dirichlet Allocation* (LDA) is applied to the annotated corpus. Described in detail in <a href="#Blei2003">[Blei2003]</a>, LDA is a graphical approach that infers conditional-probabilistic associations between topics, terms, and documents. Topics are *latent* variables (e.g., <a href="#Loehlin2004">[Loehlin2004]</a>). A *Dirichlet* distribution is assumed LDA estimation. Finally, the technique *allocates* probabilities that a topic is contained in a specified document. 
+
+The ML method employs *Gaussian mixture modeling* (e.g., <a href="#Loehlin2004">[McLachlan2000]</a>) to group documents into 
 
 
 ### Technology and tools.
