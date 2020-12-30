@@ -9,8 +9,8 @@
 
 # A natural-language-processing exploration of the thematic landscape of the field of *Business Strategy*, 1980-2020.
 
-## Executive Summary.
+## Abstract/Executive Summary.
+
+A novel combination of Natural-Language Processing (NLP) and Machine-Learning (ML) techniques provides some ability to demonstrate between known-theme documents a corpus comprised of articles from a leading research journal. Building on [previous work]("201229_README_old.md")
 
 ## Motivation and Objectives.
-
-## 
