@@ -37,9 +37,9 @@ Key words represent the most common method for searching literature. Many public
 
 Employment of *all-available* information to find documents that are thematically similar to given ones comprises the objective. Conventional keyword searches employ only metadata about documents in a corpus. The combined NLP-ML approach employs the full document text. Determination by researchers about appropriateness of thematic associations provides another information input.
 
-<img width="600" align = "right" src="./graphics/201011 NLP-ML UseCaseDiagram.png" alt="Thematic-parsing use case>
+<img width="600" align = "right" src="./graphics/201011 NLP-ML UseCaseDiagram.png" alt="Thematic-parsing use case">
 
-The use-case view to the right depicts the functional context within which the combined NLP-ML approach might be employed. The work here demonstrates activities ⓵, ⓶, and ⓷. Activity ⓵ employs the combined NLP-ML approach described below. The result is a statistically-derived characterization of the corpus and its included documents. These characteristics are immutable properties of the corpus and its documents. An actor referred to here as "Corpus Manager" accomplishes this function using a technology component labeled as "Document topic-classification model".
+The <a id = "use case">use-case</a> view to the right depicts the functional context within which the combined NLP-ML approach might be employed. The work here demonstrates activities ⓵, ⓶, and ⓷. Activity ⓵ employs the combined NLP-ML approach described below. The result is a statistically-derived characterization of the corpus and its included documents. These characteristics are immutable properties of the corpus and its documents. An actor referred to here as "Corpus Manager" accomplishes this function using a technology component labeled as "Document topic-classification model".
 
 Activities ⓶ and ⓷ are researcher-centric. The researcher begins with one or more documents of interest in activity ⓶. Activity ⓷ invokes the model to identify documents similar to those of interest. These activities achieve the desired effect. Thematically similar documents are identified using all the full text of each.
 
@@ -59,7 +59,15 @@ Business strategy focused substantially on economic efficiency beginning in the 
 
 More sophisticated points of view began to emerge in the 1970s. M. Porter observed that offering distinction can beat efficiency-based price advantages <a href="#Porter1979">[Porter1979]</a>. Porter's Competitive-Advantage framework explained things in terms of marketplace positioning and industry structure. Approximately fifteen years later, C. Christensen, one of Porter's students, explained how price advantage can beat other distinctions <a href="#Christensen1995">[Christensen1995]</a>, <a href="#Christensen2015">[Christensen2015]</a>. This later framework became popularly known as "Disruptive Innovation".
 
-An organizational-competency perspective began to emerge during the late 1990s.
+An organizational-competency perspective began to emerge during the late 1990s. D. Teece demonstrated that organizational factors other than resources and marketplace positioning explain sustained marketplace advantage <a href="#Teece1997">[Teece1997]</a>, <a href="#Teece2009">[Teece2009]</a>. This framework is commonly referred to as "Dynamic Capabilities".
+
+Finally, management consultant P. Drucker observed during the early 1990s that information and knowledge had long contributed more to financial results than real and financial assets <a href="#Drucker1993">[Drucker1993]</a>. Porter corroborated this perspective in the mid 1980's <a href="#Porter1985">[Porter1985]</a>. <a href="#Hamlett2019">[Hamlett2019]</a> attempts an economic-theory explanation for this phenomenon.
+
+### Epistemic structure.
+
+<img width="500" align = "right" src="./graphics/201011 LDA epistemic structure.svg.png" alt="High-level thematic structure">
+
+The figure to the right depicts the <a id="epistemic structure">epistemic structure</a> of the problem. 
 
 
 
@@ -88,6 +96,8 @@ An organizational-competency perspective began to emerge during the late 1990s.
 
 <a id="Liu2019">[Liu2019]</a> Y. Liu, F. Mai, C. MacDonald (2019). A Big-Data Approach to Understanding the Thematic Landscape of the Field of Business Ethics, 1982– 2016. J Bus Ethics 160:127– 150, https://t.ly/WnvH.
 
+<a id="McLachlan2000">[McLachlan2000]</a> G. McLachlan, D. Peel (2000). Finite Mixture Models. New York: Wiley, 2000.
+
 <a id="Porter1979">[Porter1979]</a> M. E. Porter (1979). How competitive forces shape strategy. Harvard Business Review, https://t.ly/YMGU.
 
 <a id="Porter1985">[Porter1985]</a> M. E. Porter, V. E. Millar (1985). How information gives you competitive advantage. Harvard Business Review, https://t.ly/BVvS.
@@ -97,5 +107,7 @@ An organizational-competency perspective began to emerge during the late 1990s.
 <a id="Stewart2009">[Stewart2009]</a> M. Stewart (2009). The Management Myth. New York: W. W. Horton, 2009, https://amz.run/4Atr.
 
 <a id="Teece1997">[Teece1997]</a> D. J. Teece, G. Pisano, A. Shuen (1997). Dynamic capabilities and strategic management.  Strategic Management Journal 18(7)509-533, August 1997, https://bityl.co/51WI.
+
+<a id="Teece2009">[Teece2009]</a> D. J. Teece (2009). Dynamic Capabilities. Oxford, UK: Oxford University Press, 2009, https://amz.run/4Au2.
 
 <a id="Torabi2019">[Torabi2019]</a> Torabi A, F., & Taboada, M. (2019). Big Data and quality data for fake news and misinformation detection. Big Data & Society, January–June 2019: 1–14, https://bit.ly/3cuXsUH.
