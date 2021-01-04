@@ -87,7 +87,7 @@ The discussion next turns to the tools and technologies. This latter section tak
 
 The <a href="#epistemic_structure">epistemic-structure figure</a> above also refers to the NLP and ML approaches. First, *Latent Dirichlet Allocation* (LDA) is applied to the annotated corpus. Described in detail in <a href="#Blei2003">[Blei2003]</a>, LDA is a graphical approach that infers conditional-probabilistic associations between topics, terms, and documents. Topics are *latent* variables (e.g., <a href="#Loehlin2004">[Loehlin2004]</a>). A *Dirichlet* distribution is assumed LDA estimation. Finally, the technique *allocates* probabilities that a topic is contained in a specified document.
 
-<img width="600" align = "right" src="./graphics/known_theme_doc_lda_heatmap.png" alt="LDA Heatmap"> The figure to the right contains illustrative results. This contains the LDA results for 22 known-theme documents. The algorithm *allocates* a degree of belief that a document's contents correspond to a given topic.  If $\mathcal{T}$
+<img width="600" align = "right" src="./graphics/known_theme_doc_lda_heatmap.png" alt="LDA Heatmap"> The figure to the right contains illustrative results. This contains the LDA results for 22 known-theme documents. The algorithm *allocates* a degree of belief that a document's contents correspond to a given topic.  If \\[ \mathcal{T} \\]
 
 
 The ML method employs *Gaussian mixture modeling* (e.g., <a href="#Loehlin2004">[McLachlan2000]</a>) to group documents into *Latent Classes*.
