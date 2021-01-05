@@ -89,8 +89,9 @@ The <a href="#epistemic_structure">epistemic-structure figure</a> above also ref
 
 <img width="600" align = "right" src="./graphics/known_theme_doc_lda_heatmap.png" alt="LDA Heatmap"> The figure to the right contains illustrative results. This contains the LDA results for 22 known-theme documents. The algorithm *allocates* a degree of belief that a document's contents correspond to a given topic.  If <img src="https://latex.codecogs.com/gif.latex?\mathcal{T} " /> denotes a topic and  <img src="https://latex.codecogs.com/gif.latex?\mathcal{D} " />  a document, then
 <p align = "center">
-<img src="https://latex.codecogs.com/gif.latex?\sum_{t \in \mathcal{T} } \mathrm{LDA}\{t | \mathcal{D}\}=1  " />. 
+<img src="https://latex.codecogs.com/gif.latex?\sum_{t \in \mathcal{T} } \mathrm{LDA}\{t | \mathcal{D}\}=1  " />.
 </p>
+
 
 The ML method employs *Gaussian mixture modeling* (e.g., <a href="#Loehlin2004">[McLachlan2000]</a>) to group documents into *Latent Classes*.
 
