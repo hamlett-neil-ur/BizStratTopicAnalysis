@@ -96,7 +96,7 @@ The LDA across all possible topics for a given document sums to unity.  LDAs  in
 The LDA allocations for all 22 known-theme  are relatively weak signals.  None of the  documents is dominated by any individual topic. The strongest signal occurs for a document for which the allocation to the most-influential topic is around 0.35. Unequivocally associating most of the documents with even a small subset of the topics in <img src="https://latex.codecogs.com/gif.latex?\mathcal{T} " /> appears problematic.
 
 <img width="600" align = "right" src="./graphics/known_theme_doc_lda_entropy.png" alt="lda_entropy"> Entropy provides a method for quantifying the degree of concentration of the allocations. <p align = "center">
-<img width="60" align = "center" src="./graphics/conditional_entropy.png" alt="lda_heatmap">
+<img height="60" align = "center" src="./graphics/conditional_entropy.png" alt="lda_heatmap">
 </p>
 The figure to the right
 
