@@ -96,9 +96,8 @@ The LDA across all possible topics for a given document sums to unity.  LDAs  in
 The LDA allocations for all 22 known-theme  are relatively weak signals.  None of the  documents is dominated by any individual topic. The strongest signal occurs for a document for which the allocation to the most-influential topic is around 0.35. Unequivocally associating most of the documents with even a small subset of the topics in <img src="https://latex.codecogs.com/gif.latex?\mathcal{T} " /> appears problematic.
 
 Entropy provides a method for quantifying the degree of concentration of the allocations. Defined by <p align = "center">
-<img height="40" align = "center" src="./graphics/conditional_lda_entropy.png" alt="lda_heatmap">,
-</p>
-entropy quantifies the extent of concentration in a distribution.  It convayes information similar to that from the <a href=https://www.investopedia.com/terms/g/gini-index.asp>Gini coefficient</a>.  Selecting <img src="https://latex.codecogs.com/gif.latex?||\mathcal{T}|| " />  as the base for the logarithm, here, ensures that  <img height="25"  src="./graphics/conditional_lda_entropy_range.png" alt="lda_heatmap">
+<img height="40" align = "center" src="./graphics/conditional_lda_entropy.png" alt="lda_heatmap">,</p>
+entropy quantifies the extent of concentration in a distribution.  It convayes information similar to that from the <a href=https://www.investopedia.com/terms/g/gini-index.asp>Gini coefficient</a>.  Selecting <img src="https://latex.codecogs.com/gif.latex?||\mathcal{T}|| " />  as the base for the logarithm, here, ensures that <p align = "center"> <img height="20"  src="./graphics/conditional_lda_entropy_range.png" alt="lda_heatmap">.</p>
 
 <img width="600" align = "right" src="./graphics/known_theme_doc_lda_entropy.png" alt="lda_entropy"> The figure to the right
 
