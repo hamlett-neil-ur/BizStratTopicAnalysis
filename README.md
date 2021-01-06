@@ -89,7 +89,7 @@ The <a href="#epistemic_structure">epistemic-structure figure</a> above also ref
 
 <img width="600" align = "right" src="./graphics/known_theme_doc_lda_heatmap.png" alt="lda_heatmap"> The figure to the right contains illustrative results. This contains the LDA results for 22 known-theme documents. The algorithm *allocates* a degree of belief that a document's contents correspond to a given topic.  If <img src="https://latex.codecogs.com/gif.latex?\mathcal{T} " /> denotes the set of topics and  <img src="https://latex.codecogs.com/gif.latex?\mathcal{D} " />  a document, then
 <p align = "center">
-<img height="25" align = "center" src="./graphics/unit_norm_lda.png" alt="lda_heatmap">
+<img height="50" align = "center" src="./graphics/unit_norm_lda.png" alt="lda_heatmap">
 </p>
 The LDA across all possible topics for a given document sums to unity.  LDAs  in this fashion resemble probability distributions. </p>
 
