@@ -98,7 +98,7 @@ The LDA allocations for all 22 known-theme  are relatively weak signals.  None o
 Entropy provides a method for quantifying the degree of concentration of the allocations. Defined by <p align = "center">
 <img height="35" align = "center" src="./graphics/conditional_entropy.png" alt="lda_heatmap">,
 </p>
-entropy quantifies the extent of concentration in a distribution.  It convayes information similar to that from the [Gini coefficient](https://www.investopedia.com/terms/g/gini-index.asp). </p>
+entropy quantifies the extent of concentration in a distribution.  It convayes information similar to that from the <a href=https://www.investopedia.com/terms/g/gini-index.asp>Gini coefficient</a>. </p>
 
 <img width="600" align = "right" src="./graphics/known_theme_doc_lda_entropy.png" alt="lda_entropy"> The figure to the right
 
